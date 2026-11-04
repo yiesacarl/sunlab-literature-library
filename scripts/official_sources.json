@@ -1,0 +1,197 @@
+[
+  {
+    "id": "nature",
+    "publisher": "Nature",
+    "name": "Nature",
+    "feed": "https://www.nature.com/nature.rss",
+    "homepage": "https://www.nature.com/nature/"
+  },
+  {
+    "id": "nphys",
+    "publisher": "Nature",
+    "name": "Nature Physics",
+    "feed": "https://www.nature.com/nphys.rss",
+    "homepage": "https://www.nature.com/nphys/"
+  },
+  {
+    "id": "nmat",
+    "publisher": "Nature",
+    "name": "Nature Materials",
+    "feed": "https://www.nature.com/nmat.rss",
+    "homepage": "https://www.nature.com/nmat/"
+  },
+  {
+    "id": "nchem",
+    "publisher": "Nature",
+    "name": "Nature Chemistry",
+    "feed": "https://www.nature.com/nchem.rss",
+    "homepage": "https://www.nature.com/nchem/"
+  },
+  {
+    "id": "nnano",
+    "publisher": "Nature",
+    "name": "Nature Nanotechnology",
+    "feed": "https://www.nature.com/nnano.rss",
+    "homepage": "https://www.nature.com/nnano/"
+  },
+  {
+    "id": "ncomms",
+    "publisher": "Nature",
+    "name": "Nature Communications",
+    "feed": "https://www.nature.com/ncomms.rss",
+    "homepage": "https://www.nature.com/ncomms/"
+  },
+  {
+    "id": "npjqi",
+    "publisher": "Nature",
+    "name": "npj Quantum Information",
+    "feed": "https://www.nature.com/npjqi.rss",
+    "homepage": "https://www.nature.com/npjqi/"
+  },
+  {
+    "id": "science",
+    "publisher": "Science",
+    "name": "Science",
+    "feed": "https://www.science.org/action/showFeed?type=etoc&feed=rss&jc=science",
+    "homepage": "https://www.science.org/journal/science",
+    "issn": "0036-8075",
+    "issnSource": "https://portal.issn.org/resource/ISSN/0036-8075"
+  },
+  {
+    "id": "sciadv",
+    "publisher": "Science",
+    "name": "Science Advances",
+    "feed": "https://www.science.org/action/showFeed?type=etoc&feed=rss&jc=sciadv",
+    "homepage": "https://www.science.org/journal/sciadv"
+  },
+  {
+    "id": "jacsat",
+    "publisher": "ACS",
+    "name": "Journal of the American Chemical Society",
+    "feed": "https://pubs.acs.org/rss/jacsat/asap.xml",
+    "homepage": "https://pubs.acs.org/toc/jacsat/0/0"
+  },
+  {
+    "id": "acscii",
+    "publisher": "ACS",
+    "name": "ACS Central Science",
+    "feed": "https://pubs.acs.org/rss/acscii/asap.xml",
+    "homepage": "https://pubs.acs.org/toc/acscii/0/0"
+  },
+  {
+    "id": "nalefd",
+    "publisher": "ACS",
+    "name": "Nano Letters",
+    "feed": "https://pubs.acs.org/rss/nalefd/asap.xml",
+    "homepage": "https://pubs.acs.org/toc/nalefd/0/0"
+  },
+  {
+    "id": "jpclcd",
+    "publisher": "ACS",
+    "name": "The Journal of Physical Chemistry Letters",
+    "feed": "https://pubs.acs.org/rss/jpclcd/asap.xml",
+    "homepage": "https://pubs.acs.org/toc/jpclcd/0/0"
+  },
+  {
+    "id": "jctcce",
+    "publisher": "ACS",
+    "name": "Journal of Chemical Theory and Computation",
+    "feed": "https://pubs.acs.org/rss/jctcce/asap.xml",
+    "homepage": "https://pubs.acs.org/toc/jctcce/0/0"
+  },
+  {
+    "id": "inocaj",
+    "publisher": "ACS",
+    "name": "Inorganic Chemistry",
+    "feed": "https://pubs.acs.org/rss/inocaj/asap.xml",
+    "homepage": "https://pubs.acs.org/toc/inocaj/0/0"
+  },
+  {
+    "id": "prl",
+    "publisher": "APS",
+    "name": "Physical Review Letters",
+    "feed": "https://feeds.aps.org/rss/recent/prl.xml",
+    "homepage": "https://journals.aps.org/prl/recent"
+  },
+  {
+    "id": "prx",
+    "publisher": "APS",
+    "name": "Physical Review X",
+    "feed": "https://feeds.aps.org/rss/recent/prx.xml",
+    "homepage": "https://journals.aps.org/prx/recent"
+  },
+  {
+    "id": "prxquantum",
+    "publisher": "APS",
+    "name": "PRX Quantum",
+    "feed": "https://feeds.aps.org/rss/recent/prxquantum.xml",
+    "homepage": "https://journals.aps.org/prxquantum/recent"
+  },
+  {
+    "id": "pra",
+    "publisher": "APS",
+    "name": "Physical Review A",
+    "feed": "https://feeds.aps.org/rss/recent/pra.xml",
+    "homepage": "https://journals.aps.org/pra/recent",
+    "issn": "2469-9934",
+    "issnSource": "https://journals.aps.org/pra/"
+  },
+  {
+    "id": "prb",
+    "publisher": "APS",
+    "name": "Physical Review B",
+    "feed": "https://feeds.aps.org/rss/recent/prb.xml",
+    "homepage": "https://journals.aps.org/prb/recent",
+    "issn": "2469-9969",
+    "issnSource": "https://journals.aps.org/prb/"
+  },
+  {
+    "id": "prapplied",
+    "publisher": "APS",
+    "name": "Physical Review Applied",
+    "feed": "https://feeds.aps.org/rss/recent/prapplied.xml",
+    "homepage": "https://journals.aps.org/prapplied/recent"
+  },
+  {
+    "id": "prmaterials",
+    "publisher": "APS",
+    "name": "Physical Review Materials",
+    "feed": "https://feeds.aps.org/rss/recent/prmaterials.xml",
+    "homepage": "https://journals.aps.org/prmaterials/recent"
+  },
+  {
+    "id": "prresearch",
+    "publisher": "APS",
+    "name": "Physical Review Research",
+    "feed": "https://feeds.aps.org/rss/recent/prresearch.xml",
+    "homepage": "https://journals.aps.org/prresearch/recent"
+  },
+  {
+    "id": "quant-ph",
+    "publisher": "arXiv",
+    "name": "arXiv quant-ph",
+    "feed": "https://rss.arxiv.org/rss/quant-ph",
+    "homepage": "https://arxiv.org/list/quant-ph/recent"
+  },
+  {
+    "id": "cond-mat.mtrl-sci",
+    "publisher": "arXiv",
+    "name": "arXiv cond-mat.mtrl-sci",
+    "feed": "https://rss.arxiv.org/rss/cond-mat.mtrl-sci",
+    "homepage": "https://arxiv.org/list/cond-mat.mtrl-sci/recent"
+  },
+  {
+    "id": "cond-mat.mes-hall",
+    "publisher": "arXiv",
+    "name": "arXiv cond-mat.mes-hall",
+    "feed": "https://rss.arxiv.org/rss/cond-mat.mes-hall",
+    "homepage": "https://arxiv.org/list/cond-mat.mes-hall/recent"
+  },
+  {
+    "id": "cond-mat.str-el",
+    "publisher": "arXiv",
+    "name": "arXiv cond-mat.str-el",
+    "feed": "https://rss.arxiv.org/rss/cond-mat.str-el",
+    "homepage": "https://arxiv.org/list/cond-mat.str-el/recent"
+  }
+]

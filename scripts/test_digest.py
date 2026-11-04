@@ -18,4 +18,6 @@ class SelectionTests(unittest.TestCase):
  def test_unreviewed_and_other_excluded(self):
   self.assertEqual(sum(map(len,select([{**p(1,0),'approved':False},p(2,0,topic='other')],DAY).values())),0)
  def test_zero_candidate_is_not_filled(self):self.assertEqual(select([],DAY)['sense'],[])
+ def test_future_publication_excluded_despite_recent_discovery(self):
+  self.assertEqual(select([p(1,0,publicationDate='2026-12-31')],DAY)['spin'],[])
 if __name__=='__main__':unittest.main()

@@ -9,37 +9,37 @@
     },
     {
       "date": "2026-11-03",
-      "count": 2,
-      "mode": "historical-backfill"
-    },
-    {
-      "date": "2026-11-02",
-      "count": 5,
-      "mode": "historical-backfill"
-    },
-    {
-      "date": "2026-11-01",
-      "count": 1,
-      "mode": "historical-backfill"
-    },
-    {
-      "date": "2026-10-31",
       "count": 9,
       "mode": "historical-backfill"
     },
     {
-      "date": "2026-10-30",
-      "count": 14,
-      "mode": "historical-backfill"
-    },
-    {
-      "date": "2026-10-29",
+      "date": "2026-11-02",
       "count": 15,
       "mode": "historical-backfill"
     },
     {
+      "date": "2026-11-01",
+      "count": 4,
+      "mode": "historical-backfill"
+    },
+    {
+      "date": "2026-10-31",
+      "count": 14,
+      "mode": "historical-backfill"
+    },
+    {
+      "date": "2026-10-30",
+      "count": 25,
+      "mode": "historical-backfill"
+    },
+    {
+      "date": "2026-10-29",
+      "count": 24,
+      "mode": "historical-backfill"
+    },
+    {
       "date": "2026-10-28",
-      "count": 17,
+      "count": 19,
       "mode": "historical-backfill"
     }
   ]
