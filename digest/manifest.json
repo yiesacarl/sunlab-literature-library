@@ -6,6 +6,41 @@
     {
       "date": "2026-11-04",
       "count": 15
+    },
+    {
+      "date": "2026-11-03",
+      "count": 2,
+      "mode": "historical-backfill"
+    },
+    {
+      "date": "2026-11-02",
+      "count": 5,
+      "mode": "historical-backfill"
+    },
+    {
+      "date": "2026-11-01",
+      "count": 1,
+      "mode": "historical-backfill"
+    },
+    {
+      "date": "2026-10-31",
+      "count": 9,
+      "mode": "historical-backfill"
+    },
+    {
+      "date": "2026-10-30",
+      "count": 14,
+      "mode": "historical-backfill"
+    },
+    {
+      "date": "2026-10-29",
+      "count": 15,
+      "mode": "historical-backfill"
+    },
+    {
+      "date": "2026-10-28",
+      "count": 17,
+      "mode": "historical-backfill"
     }
   ]
 }

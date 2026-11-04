@@ -29,3 +29,8 @@ Exclude existing library records by DOI/arXiv identity or exact normalized title
 - digest.js: compact UI, date/topic navigation, provenance and related-paper drawers.
 
 The Daily Digest does not automatically add items to Sunlab Papers, Earlier Work or Sharing Papers. Those collections retain their meaning and counts. All displayed summaries are AI-assisted; related links describe thematic connections, not necessarily citations.
+
+## Authorized historical reconstruction
+The user requested a one-off backfill for 2026-10-28 through 2026-11-03. These issues are explicitly marked `mode: historical-backfill` and `selectionDateBasis: publicationDate`. No discovery ledger existed then: their 7/30-day windows therefore use precise source publication dates, while first discovery remains 2026-11-04 and preparation timestamps remain actual. This is an explicit exception for those seven issue dates only; ordinary daily issues retain the discovery-date policy above.
+
+`scripts/backfill_digest.py` validates and builds an authorized historical range from privately cached evidence and human/AI editorial reviews. It refuses to overwrite issues, excludes all original library records and all existing recommendations (including later issues), preserves the latest live issue, and keeps raw abstracts private. Future daily runs must preserve these issues and exclude their papers from repeat recommendations. The existing 2026-11-04 issue is unchanged.

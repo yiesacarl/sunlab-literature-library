@@ -1,0 +1,738 @@
+{
+  "date": "2026-10-29",
+  "generatedAt": "2026-11-04T13:05:51+08:00",
+  "timezone": "Asia/Shanghai",
+  "bootstrap": false,
+  "mode": "historical-backfill",
+  "selectionDateBasis": "publicationDate",
+  "papers": [
+    {
+      "id": "doi:10.1063/5.0355673",
+      "doi": "10.1063/5.0355673",
+      "title": "Origin of long-lived nuclear spin states and coherences in aliphatic chains revealed by relaxation theory",
+      "authors": "Danil A. Markelov, Kirill F. Sheberstov",
+      "journal": "The Journal of Chemical Physics",
+      "publicationDate": "2026-10-29",
+      "dateBasis": "Crossref published-online",
+      "sourceUrl": "https://doi.org/10.1063/5.0355673",
+      "evidenceUrl": "https://api.crossref.org/works/10.1063%2F5.0355673",
+      "metadataSource": "Crossref",
+      "status": "Published",
+      "aliases": [],
+      "firstSeenDate": "2026-11-04",
+      "topic": "spin",
+      "summary": "Relaxation theory constructs long-lived nuclear-spin states and coherences in aliphatic chains from protected modes of the dipolar relaxation operator. Simulations reproduce observed decay dynamics and clarify which collective modes are experimentally accessible.",
+      "whyRelevant": "A useful molecular-spin example of protection emerging from symmetry and correlated relaxation.",
+      "readingBasis": "Publisher abstract via Crossref",
+      "relatedPapers": [
+        {
+          "id": "lab-1",
+          "reason": "Both investigate routes to long-lived molecular quantum states, with different spin species."
+        }
+      ],
+      "earlierPublication": false
+    },
+    {
+      "id": "doi:10.1021/acs.jctc.6c01277",
+      "doi": "10.1021/acs.jctc.6c01277",
+      "title": "Quantifying the Spin–Optical Properties of Bent π-Carbene Molecular Qubits",
+      "authors": "Yong Rui Poh, Xiao Chen, Hai-Ping Cheng, Joel Yuen-Zhou",
+      "journal": "Journal of Chemical Theory and Computation",
+      "publicationDate": "2026-10-14",
+      "dateBasis": "Crossref published-online",
+      "sourceUrl": "https://doi.org/10.1021/acs.jctc.6c01277",
+      "evidenceUrl": "https://api.crossref.org/works/10.1021%2Facs.jctc.6c01277",
+      "metadataSource": "Crossref",
+      "status": "Published",
+      "aliases": [],
+      "firstSeenDate": "2026-11-04",
+      "topic": "spin",
+      "summary": "A minimal Hamiltonian describes competing spin-selective intersystem-crossing channels in bent π-carbene qubits. Analytical results and electronic-structure calculations suggest design choices that suppress unwanted pathways while preserving optical spin preparation.",
+      "whyRelevant": "A direct molecular-design reference for balancing spin polarization, optical transitions and open-shell structure.",
+      "readingBasis": "Publisher abstract via Crossref",
+      "relatedPapers": [
+        {
+          "id": "sunlab-record-19",
+          "reason": "Both connect molecular electronic structure with optical properties of radical-based qubits."
+        }
+      ],
+      "earlierPublication": true
+    },
+    {
+      "id": "doi:10.1021/acs.inorgchem.6c04101",
+      "doi": "10.1021/acs.inorgchem.6c04101",
+      "title": "High-Spin-Locked Fe(II) Spin-Crossover Compounds: THz-EPR Investigations and Spin–Phonon Coupling",
+      "authors": "Tarek Al Said, Eike Kuhlemann, Haowei Chen, Maurice van Gastel, Marcel Walter, Malte Laurin Schwank, Sangeeta Thakur, Karsten Holldack, Wolfgang Kuch, Felix Tuczek, Frank Neese",
+      "journal": "Inorganic Chemistry",
+      "publicationDate": "2026-10-14",
+      "dateBasis": "Crossref published-online",
+      "sourceUrl": "https://doi.org/10.1021/acs.inorgchem.6c04101",
+      "evidenceUrl": "https://api.crossref.org/works/10.1021%2Facs.inorgchem.6c04101",
+      "metadataSource": "Crossref",
+      "status": "Published",
+      "aliases": [],
+      "firstSeenDate": "2026-11-04",
+      "topic": "spin",
+      "summary": "THz-EPR measurements probe low-temperature high-spin states in two iron spin-crossover compounds. Modeling resolves zero-field splitting and requires explicit spin–phonon coupling to account for one compound's field-dependent transitions.",
+      "whyRelevant": "A spectroscopic case study for recognizing when a spin-only Hamiltonian is insufficient.",
+      "readingBasis": "Publisher abstract via Crossref",
+      "relatedPapers": [
+        {
+          "id": "lab-4",
+          "reason": "Both investigate experimentally consequential spin–phonon coupling."
+        }
+      ],
+      "earlierPublication": true
+    },
+    {
+      "id": "doi:10.1103/5k4z-dgn2",
+      "doi": "10.1103/5k4z-dgn2",
+      "title": "High-fidelity molecular quantum logic gates resilient to interaction fluctuation",
+      "authors": "Yan Lu, Xiao-Feng Shi",
+      "journal": "Physical Review Research",
+      "publicationDate": "2026-10-14",
+      "dateBasis": "Crossref published-online",
+      "sourceUrl": "https://doi.org/10.1103/5k4z-dgn2",
+      "evidenceUrl": "https://api.crossref.org/works/10.1103%2F5k4z-dgn2",
+      "metadataSource": "Crossref",
+      "status": "Published",
+      "aliases": [],
+      "firstSeenDate": "2026-11-04",
+      "topic": "control",
+      "summary": "A theoretical molecular controlled-phase gate combines global microwave pulses with spin-echo-like protection. Modeling of trapped-molecule motion indicates reduced sensitivity to fluctuating dipole interactions and a tunable controlled phase.",
+      "whyRelevant": "Directly relevant to robust molecular quantum control, with performance estimates that remain theoretical.",
+      "readingBasis": "Publisher abstract via Crossref",
+      "relatedPapers": [
+        {
+          "id": "lab-2",
+          "reason": "Both seek to reduce errors through the structure of control sequences."
+        }
+      ],
+      "earlierPublication": true
+    },
+    {
+      "id": "doi:10.1038/s41467-026-78076-w",
+      "doi": "10.1038/s41467-026-78076-w",
+      "title": "Very high frequency (263 GHz) pulse EPR spectroscopy of high spin transition metal centers",
+      "authors": "Zikri Hasanbasri, Shasha Qiu, Guodong Rao, Amanda Caceres, Erica Debley, Yuan Zheng, Elizabeth M. Nolan, Marie Heffern, Paul Stucky, Neville C. Luhmann Jr, R. David Britt",
+      "journal": "Nature Communications",
+      "publicationDate": "2026-10-01",
+      "dateBasis": "Crossref published-online",
+      "sourceUrl": "https://doi.org/10.1038/s41467-026-78076-w",
+      "evidenceUrl": "https://api.crossref.org/works/10.1038%2Fs41467-026-78076-w",
+      "metadataSource": "Crossref",
+      "status": "Published",
+      "aliases": [],
+      "firstSeenDate": "2026-11-04",
+      "topic": "control",
+      "summary": "A high-power millimeter-wave amplifier extends pulsed EPR operation to 263 GHz. Measurements on high-spin manganese centers illustrate how the instrument accesses broad transitions and produces spin echoes without a resonator.",
+      "whyRelevant": "A concrete instrumentation reference for high-field studies of molecular ions and zero-field-splitting effects.",
+      "readingBasis": "Publisher abstract via Crossref",
+      "relatedPapers": [
+        {
+          "id": "sunlab-record-30",
+          "reason": "Both depend on experimentally addressing molecular electron-spin transitions."
+        }
+      ],
+      "earlierPublication": true
+    },
+    {
+      "id": "doi:10.1063/5.0344787",
+      "doi": "10.1063/5.0344787",
+      "title": "Ultrafast spin-transfer dynamics and single-qubit logic gate design in monocyclic carbon rings with transition metal atoms adsorbed",
+      "authors": "Yan Wu, Shangjie Ma, Ronghua Chen, Shuai Xu, Yiming Zhang, Jing Liu, Chun Li, Georgios Lefkidis, Wolfgang Hübner, Wei Jin",
+      "journal": "The Journal of Chemical Physics",
+      "publicationDate": "2026-10-14",
+      "dateBasis": "Crossref published-online",
+      "sourceUrl": "https://doi.org/10.1063/5.0344787",
+      "evidenceUrl": "https://api.crossref.org/works/10.1063%2F5.0344787",
+      "metadataSource": "Crossref",
+      "status": "Published",
+      "aliases": [],
+      "firstSeenDate": "2026-11-04",
+      "topic": "control",
+      "summary": "First-principles simulations examine laser-driven spin transfer in transition-metal-decorated carbon rings. Tailored pulses implement proposed single-qubit gates, with detuning and chirp tests probing their tolerance to control variations.",
+      "whyRelevant": "A molecular spin-control design study that should be read as a theoretical proposal rather than a demonstrated processor.",
+      "readingBasis": "Publisher abstract via Crossref",
+      "relatedPapers": [
+        {
+          "id": "sunlab-record-30",
+          "reason": "Both target coherent manipulation of localized molecular electron spins."
+        }
+      ],
+      "earlierPublication": true
+    },
+    {
+      "id": "doi:10.1021/acs.nanolett.6c03517",
+      "doi": "10.1021/acs.nanolett.6c03517",
+      "title": "Quantitative Quantum Relaxometry Framework for Probing Transient Radical-Associated Magnetic Fluctuations under Operando Conditions",
+      "authors": "Zenghao Kong, Jia Su, Jiasong Li, Fazhan Shi",
+      "journal": "Nano Letters",
+      "publicationDate": "2026-10-08",
+      "dateBasis": "Crossref published-online",
+      "sourceUrl": "https://doi.org/10.1021/acs.nanolett.6c03517",
+      "evidenceUrl": "https://api.crossref.org/works/10.1021%2Facs.nanolett.6c03517",
+      "metadataSource": "Crossref",
+      "status": "Published",
+      "aliases": [],
+      "firstSeenDate": "2026-11-04",
+      "topic": "sense",
+      "summary": "NV relaxometry links transient radical-associated magnetic noise to changes in longitudinal relaxation. The work develops a quantitative framework and demonstrates operando tracking during photocatalytic water splitting.",
+      "whyRelevant": "A strong methods reference for connecting radical dynamics, magnetic fluctuations and a measurable sensing signal.",
+      "readingBasis": "Publisher abstract via Crossref",
+      "relatedPapers": [
+        {
+          "id": "lab-5",
+          "reason": "Both infer environmental dynamics from molecular or defect spin relaxation."
+        }
+      ],
+      "earlierPublication": true
+    },
+    {
+      "id": "doi:10.1002/qute.70498",
+      "doi": "10.1002/qute.70498",
+      "title": "Electrical Readout of Spin Environments in Diamond for Quantum Sensing",
+      "authors": "Olga Rubinas, Michael Petrov, Emilie Bourgeois, Jaroslav Hruby, Akhil Kuriakose, Ottavia Jedrkiewicz, Milos Nesladek",
+      "journal": "Advanced Quantum Technologies",
+      "publicationDate": "2026-10-14",
+      "dateBasis": "Crossref published-online",
+      "sourceUrl": "https://doi.org/10.1002/qute.70498",
+      "evidenceUrl": "https://api.crossref.org/works/10.1002%2Fqute.70498",
+      "metadataSource": "Crossref",
+      "status": "Published",
+      "aliases": [],
+      "firstSeenDate": "2026-11-04",
+      "topic": "sense",
+      "summary": "Photocurrent-detected DEER reads interactions between diamond NV centers and nearby paramagnetic defects. The experiment identifies nitrogen-related spin-bath species using electrical detection instead of conventional fluorescence collection.",
+      "whyRelevant": "A concrete route for combining spin-environment characterization with compact electrical readout.",
+      "readingBasis": "Publisher abstract via Crossref",
+      "relatedPapers": [
+        {
+          "id": "lab-5",
+          "reason": "Both infer a local environment from its influence on a spin probe."
+        }
+      ],
+      "earlierPublication": true
+    },
+    {
+      "id": "doi:10.1063/5.0344327",
+      "doi": "10.1063/5.0344327",
+      "title": "Multiparametric quantum sensing of liquids using NV centers and tethered magnetic nanoparticles",
+      "authors": "Johannes Fiedler, Martin Møller Greve, Justas Zalieckas",
+      "journal": "APL Quantum",
+      "publicationDate": "2026-10-02",
+      "dateBasis": "Crossref published-online",
+      "sourceUrl": "https://doi.org/10.1063/5.0344327",
+      "evidenceUrl": "https://api.crossref.org/works/10.1063%2F5.0344327",
+      "metadataSource": "Crossref",
+      "status": "Published",
+      "aliases": [],
+      "firstSeenDate": "2026-11-04",
+      "topic": "sense",
+      "summary": "A proposed liquid-sensing platform couples near-surface NV centers to magnetic nanoparticles tethered by DNA. Spatially varied tethers would translate liquid-dependent motion into multiple magnetic response channels.",
+      "whyRelevant": "A conceptual comparison for viscosity-sensitive spin probes; the paper outlines a proposal rather than validating a complete device.",
+      "readingBasis": "Publisher abstract via Crossref",
+      "relatedPapers": [
+        {
+          "id": "lab-5",
+          "reason": "Both use environment-dependent dynamics to probe properties of liquids."
+        }
+      ],
+      "earlierPublication": true
+    },
+    {
+      "id": "doi:10.1021/jacs.6c14445",
+      "doi": "10.1021/jacs.6c14445",
+      "title": "Engineering Intrinsic Mixed Sodium Ionic–Electronic Conductivity in a Nickel Bis(diimine) Metal–Organic Framework",
+      "authors": "Xinyi Zhou, Dongxu Chen, Jinxin Liu, Mingyu Yang, Yuting Zeng, Shiyan Xiao, Zheng Meng",
+      "journal": "Journal of the American Chemical Society",
+      "publicationDate": "2026-10-15",
+      "dateBasis": "Crossref published-online",
+      "sourceUrl": "https://doi.org/10.1021/jacs.6c14445",
+      "evidenceUrl": "https://api.crossref.org/works/10.1021%2Fjacs.6c14445",
+      "metadataSource": "Crossref",
+      "status": "Published",
+      "aliases": [],
+      "firstSeenDate": "2026-11-04",
+      "topic": "matter",
+      "summary": "Sulfonate side chains introduce sodium-ion pathways into a conductive nickel bis(diimine) MOF. Electrical measurements resolve intrinsic ionic and electronic transport, while structural analysis links each contribution to a different part of the framework.",
+      "whyRelevant": "Especially relevant when distinguishing ionic motion from electronic conductivity in functionalized conductive MOFs.",
+      "readingBasis": "Publisher abstract via Crossref",
+      "relatedPapers": [
+        {
+          "id": "lab-7",
+          "reason": "Both highlight the need to separate mechanisms behind measured framework conductivity."
+        }
+      ],
+      "earlierPublication": true
+    },
+    {
+      "id": "doi:10.1021/acs.nanolett.6c02280",
+      "doi": "10.1021/acs.nanolett.6c02280",
+      "title": "Termination-Controlled Fractional Spin Modes at Organic Topological Spin–Chain Interfaces",
+      "authors": "Khalid N. Anindya, Hong Guo",
+      "journal": "Nano Letters",
+      "publicationDate": "2026-10-05",
+      "dateBasis": "Crossref published-online",
+      "sourceUrl": "https://doi.org/10.1021/acs.nanolett.6c02280",
+      "evidenceUrl": "https://api.crossref.org/works/10.1021%2Facs.nanolett.6c02280",
+      "metadataSource": "Crossref",
+      "status": "Published",
+      "aliases": [],
+      "firstSeenDate": "2026-11-04",
+      "topic": "matter",
+      "summary": "A theoretical organic radical-chain study compares terminations at interfaces between different spin sectors. Changing the bond registry can quench or retain localized fractional spin modes and tune their coupling across a finite domain.",
+      "whyRelevant": "Connects atomically defined molecular interfaces to emergent local spin behavior.",
+      "readingBasis": "Publisher abstract via Crossref",
+      "relatedPapers": [
+        {
+          "id": "sunlab-record-22",
+          "reason": "Both concern extended organic radical architectures and their spin properties."
+        }
+      ],
+      "earlierPublication": true
+    },
+    {
+      "id": "doi:10.1002/agt2.70448",
+      "doi": "10.1002/agt2.70448",
+      "title": "Covalent Organic Framework‐Based Optoelectronic Memristors: Structural Design, Optoelectronic Modulation and Neuromorphic Applications",
+      "authors": "Xianglong Dai, Qiongshan Zhang, Bin Zhang",
+      "journal": "Aggregate",
+      "publicationDate": "2026-10-21",
+      "dateBasis": "Crossref published-online",
+      "sourceUrl": "https://doi.org/10.1002/agt2.70448",
+      "evidenceUrl": "https://api.crossref.org/works/10.1002%2Fagt2.70448",
+      "metadataSource": "Crossref",
+      "status": "Published",
+      "aliases": [],
+      "firstSeenDate": "2026-11-04",
+      "topic": "matter",
+      "summary": "This review maps COF chemistry and stacking onto light-controlled conductance and memory effects. It distinguishes proposed mechanisms and simulated functions from experimentally resolved device states, emphasizing contacts, film quality and reversibility.",
+      "whyRelevant": "A useful framework for evaluating whether an observed conductance change has a demonstrated microscopic mechanism.",
+      "readingBasis": "Publisher abstract via Crossref",
+      "relatedPapers": [
+        {
+          "id": "lab-9",
+          "reason": "Both connect framework structure and film or crystal quality with device behavior."
+        }
+      ],
+      "earlierPublication": true
+    },
+    {
+      "id": "doi:10.1038/s41467-026-79214-0",
+      "doi": "10.1038/s41467-026-79214-0",
+      "title": "Framework desymmetrization enables partial pore space partition in metal-organic frameworks",
+      "authors": "Xingxing Zhong, Mian Wei, Jing-Kai Wang, Yuqing Zhang, Xiaoyan Jiang, Jianhua Yu, Xiang Zhao",
+      "journal": "Nature Communications",
+      "publicationDate": "2026-10-29",
+      "dateBasis": "Crossref published-online",
+      "sourceUrl": "https://doi.org/10.1038/s41467-026-79214-0",
+      "evidenceUrl": "https://api.crossref.org/works/10.1038%2Fs41467-026-79214-0",
+      "metadataSource": "Crossref",
+      "status": "Published",
+      "aliases": [],
+      "firstSeenDate": "2026-11-04",
+      "topic": "chem",
+      "summary": "Lower-symmetry linkers distort a MOF network so that only part of its pore space is partitioned. The resulting architecture retains accessible metal sites and changes gas-separation selectivity relative to fully partitioned analogues.",
+      "whyRelevant": "Provides a concrete strategy for controlling local coordination environments through linker symmetry.",
+      "readingBasis": "Publisher abstract via Crossref",
+      "relatedPapers": [
+        {
+          "id": "sunlab-record-11",
+          "reason": "Both use synthetic control to engineer well-defined framework structures."
+        }
+      ],
+      "earlierPublication": false
+    },
+    {
+      "id": "doi:10.1002/anie.4432478",
+      "doi": "10.1002/anie.4432478",
+      "title": "Solvent‐Free Synthesis of Covalent Organic Frameworks: Achievements and Challenges",
+      "authors": "Qingyun Zhang, Kaiyuan Wang, Dong Wang, Meiting Zhao, Zhenjie Zhang, Zhifang Wang",
+      "journal": "Angewandte Chemie International Edition",
+      "publicationDate": "2026-10-02",
+      "dateBasis": "Crossref published-online",
+      "sourceUrl": "https://doi.org/10.1002/anie.4432478",
+      "evidenceUrl": "https://api.crossref.org/works/10.1002%2Fanie.4432478",
+      "metadataSource": "Crossref",
+      "status": "Published",
+      "aliases": [],
+      "firstSeenDate": "2026-11-04",
+      "topic": "chem",
+      "summary": "This minireview compares mechanochemical, ionothermal, melt-assisted and vapor-assisted COF synthesis. It examines how alternative reaction environments affect crystallization, shaping and reproducible scale-up.",
+      "whyRelevant": "A compact synthesis map for evaluating alternatives to conventional solvothermal crystal growth.",
+      "readingBasis": "Publisher abstract via Crossref",
+      "relatedPapers": [
+        {
+          "id": "sunlab-record-11",
+          "reason": "Both address the balance between reaction pathways and crystallization."
+        }
+      ],
+      "earlierPublication": true
+    },
+    {
+      "id": "doi:10.1002/anie.3462526",
+      "doi": "10.1002/anie.3462526",
+      "title": "Intrinsic Near‐Infrared Photothermal Effect Induces Single‐Crystal‐to‐Single‐Crystal Transformation in Organic Molecular Crystals",
+      "authors": "Liming Yang, Binjie Chen, Rushuai Deng, Xiangwei Kong, Yunze Huang, Mingxing Chen, Xinggui Gu",
+      "journal": "Angewandte Chemie International Edition",
+      "publicationDate": "2026-10-14",
+      "dateBasis": "Crossref published-online",
+      "sourceUrl": "https://doi.org/10.1002/anie.3462526",
+      "evidenceUrl": "https://api.crossref.org/works/10.1002%2Fanie.3462526",
+      "metadataSource": "Crossref",
+      "status": "Published",
+      "aliases": [],
+      "firstSeenDate": "2026-11-04",
+      "topic": "chem",
+      "summary": "Near-infrared photothermal excitation drives a single-crystal-to-single-crystal transformation in an organic crystal. Structural measurements and calculations connect conformational flexibility with retained lattice order and controlled guest release.",
+      "whyRelevant": "Offers a crystal-engineering example of changing local structure while preserving long-range order.",
+      "readingBasis": "Publisher abstract via Crossref",
+      "relatedPapers": [
+        {
+          "id": "sunlab-record-11",
+          "reason": "Both depend on controlling structural order in molecular crystalline materials."
+        }
+      ],
+      "earlierPublication": true
+    }
+  ],
+  "sources": [
+    {
+      "source": "Crossref",
+      "topic": "spin",
+      "query": "radical qubits",
+      "url": "https://api.crossref.org/works?query.title=radical+qubits&filter=from-pub-date%3A2026-09-29%2Cuntil-pub-date%3A2026-11-03%2Ctype%3Ajournal-article&rows=30&sort=relevance",
+      "status": "ok",
+      "records": 30
+    },
+    {
+      "source": "Crossref",
+      "topic": "spin",
+      "query": "molecular qubit",
+      "url": "https://api.crossref.org/works?query.title=molecular+qubit&filter=from-pub-date%3A2026-09-29%2Cuntil-pub-date%3A2026-11-03%2Ctype%3Ajournal-article&rows=30&sort=relevance",
+      "status": "ok",
+      "records": 30
+    },
+    {
+      "source": "Crossref",
+      "topic": "spin",
+      "query": "molecular spin coherence",
+      "url": "https://api.crossref.org/works?query.title=molecular+spin+coherence&filter=from-pub-date%3A2026-09-29%2Cuntil-pub-date%3A2026-11-03%2Ctype%3Ajournal-article&rows=30&sort=relevance",
+      "status": "ok",
+      "records": 30
+    },
+    {
+      "source": "Crossref",
+      "topic": "spin",
+      "query": "spin phonon relaxation",
+      "url": "https://api.crossref.org/works?query.title=spin+phonon+relaxation&filter=from-pub-date%3A2026-09-29%2Cuntil-pub-date%3A2026-11-03%2Ctype%3Ajournal-article&rows=30&sort=relevance",
+      "status": "ok",
+      "records": 30
+    },
+    {
+      "source": "Crossref",
+      "topic": "control",
+      "query": "dynamical decoupling",
+      "url": "https://api.crossref.org/works?query.title=dynamical+decoupling&filter=from-pub-date%3A2026-09-29%2Cuntil-pub-date%3A2026-11-03%2Ctype%3Ajournal-article&rows=30&sort=relevance",
+      "status": "ok",
+      "records": 30
+    },
+    {
+      "source": "Crossref",
+      "topic": "spin",
+      "query": "molecular electron spin",
+      "url": "https://api.crossref.org/works?query.title=molecular+electron+spin&filter=from-pub-date%3A2026-09-29%2Cuntil-pub-date%3A2026-11-03%2Ctype%3Ajournal-article&rows=30&sort=relevance",
+      "status": "ok",
+      "records": 30
+    },
+    {
+      "source": "Crossref",
+      "topic": "control",
+      "query": "magnetic resonance pulse control",
+      "url": "https://api.crossref.org/works?query.title=magnetic+resonance+pulse+control&filter=from-pub-date%3A2026-09-29%2Cuntil-pub-date%3A2026-11-03%2Ctype%3Ajournal-article&rows=30&sort=relevance",
+      "status": "ok",
+      "records": 30
+    },
+    {
+      "source": "Crossref",
+      "topic": "control",
+      "query": "spin control noise spectroscopy",
+      "url": "https://api.crossref.org/works?query.title=spin+control+noise+spectroscopy&filter=from-pub-date%3A2026-09-29%2Cuntil-pub-date%3A2026-11-03%2Ctype%3Ajournal-article&rows=30&sort=relevance",
+      "status": "ok",
+      "records": 30
+    },
+    {
+      "source": "Crossref",
+      "topic": "control",
+      "query": "electron spin echo",
+      "url": "https://api.crossref.org/works?query.title=electron+spin+echo&filter=from-pub-date%3A2026-09-29%2Cuntil-pub-date%3A2026-11-03%2Ctype%3Ajournal-article&rows=30&sort=relevance",
+      "status": "ok",
+      "records": 30
+    },
+    {
+      "source": "Crossref",
+      "topic": "control",
+      "query": "electron nuclear double resonance",
+      "url": "https://api.crossref.org/works?query.title=electron+nuclear+double+resonance&filter=from-pub-date%3A2026-09-29%2Cuntil-pub-date%3A2026-11-03%2Ctype%3Ajournal-article&rows=30&sort=relevance",
+      "status": "ok",
+      "records": 30
+    },
+    {
+      "source": "Crossref",
+      "topic": "sense",
+      "query": "quantum sensing",
+      "url": "https://api.crossref.org/works?query.title=quantum+sensing&filter=from-pub-date%3A2026-09-29%2Cuntil-pub-date%3A2026-11-03%2Ctype%3Ajournal-article&rows=30&sort=relevance",
+      "status": "ok",
+      "records": 30
+    },
+    {
+      "source": "Crossref",
+      "topic": "sense",
+      "query": "spin sensing",
+      "url": "https://api.crossref.org/works?query.title=spin+sensing&filter=from-pub-date%3A2026-09-29%2Cuntil-pub-date%3A2026-11-03%2Ctype%3Ajournal-article&rows=30&sort=relevance",
+      "status": "ok",
+      "records": 30
+    },
+    {
+      "source": "Crossref",
+      "topic": "sense",
+      "query": "electron paramagnetic resonance probe",
+      "url": "https://api.crossref.org/works?query.title=electron+paramagnetic+resonance+probe&filter=from-pub-date%3A2026-09-29%2Cuntil-pub-date%3A2026-11-03%2Ctype%3Ajournal-article&rows=30&sort=relevance",
+      "status": "ok",
+      "records": 30
+    },
+    {
+      "source": "Crossref",
+      "topic": "sense",
+      "query": "diamond nanoscale sensing",
+      "url": "https://api.crossref.org/works?query.title=diamond+nanoscale+sensing&filter=from-pub-date%3A2026-09-29%2Cuntil-pub-date%3A2026-11-03%2Ctype%3Ajournal-article&rows=30&sort=relevance",
+      "status": "ok",
+      "records": 30
+    },
+    {
+      "source": "Crossref",
+      "topic": "sense",
+      "query": "molecular quantum sensor",
+      "url": "https://api.crossref.org/works?query.title=molecular+quantum+sensor&filter=from-pub-date%3A2026-09-29%2Cuntil-pub-date%3A2026-11-03%2Ctype%3Ajournal-article&rows=30&sort=relevance",
+      "status": "ok",
+      "records": 30
+    },
+    {
+      "source": "Crossref",
+      "topic": "matter",
+      "query": "conductive metal organic framework",
+      "url": "https://api.crossref.org/works?query.title=conductive+metal+organic+framework&filter=from-pub-date%3A2026-09-29%2Cuntil-pub-date%3A2026-11-03%2Ctype%3Ajournal-article&rows=30&sort=relevance",
+      "status": "ok",
+      "records": 30
+    },
+    {
+      "source": "Crossref",
+      "topic": "matter",
+      "query": "two dimensional molecular electronic",
+      "url": "https://api.crossref.org/works?query.title=two+dimensional+molecular+electronic&filter=from-pub-date%3A2026-09-29%2Cuntil-pub-date%3A2026-11-03%2Ctype%3Ajournal-article&rows=30&sort=relevance",
+      "status": "ok",
+      "records": 30
+    },
+    {
+      "source": "Crossref",
+      "topic": "matter",
+      "query": "metal organic framework electronic",
+      "url": "https://api.crossref.org/works?query.title=metal+organic+framework+electronic&filter=from-pub-date%3A2026-09-29%2Cuntil-pub-date%3A2026-11-03%2Ctype%3Ajournal-article&rows=30&sort=relevance",
+      "status": "ok",
+      "records": 30
+    },
+    {
+      "source": "Crossref",
+      "topic": "matter",
+      "query": "organic spin transport",
+      "url": "https://api.crossref.org/works?query.title=organic+spin+transport&filter=from-pub-date%3A2026-09-29%2Cuntil-pub-date%3A2026-11-03%2Ctype%3Ajournal-article&rows=30&sort=relevance",
+      "status": "ok",
+      "records": 30
+    },
+    {
+      "source": "Crossref",
+      "topic": "matter",
+      "query": "framework magnetism",
+      "url": "https://api.crossref.org/works?query.title=framework+magnetism&filter=from-pub-date%3A2026-09-29%2Cuntil-pub-date%3A2026-11-03%2Ctype%3Ajournal-article&rows=30&sort=relevance",
+      "status": "ok",
+      "records": 30
+    },
+    {
+      "source": "Crossref",
+      "topic": "chem",
+      "query": "covalent organic framework crystallization",
+      "url": "https://api.crossref.org/works?query.title=covalent+organic+framework+crystallization&filter=from-pub-date%3A2026-09-29%2Cuntil-pub-date%3A2026-11-03%2Ctype%3Ajournal-article&rows=30&sort=relevance",
+      "status": "ok",
+      "records": 30
+    },
+    {
+      "source": "Crossref",
+      "topic": "chem",
+      "query": "covalent organic framework synthesis",
+      "url": "https://api.crossref.org/works?query.title=covalent+organic+framework+synthesis&filter=from-pub-date%3A2026-09-29%2Cuntil-pub-date%3A2026-11-03%2Ctype%3Ajournal-article&rows=30&sort=relevance",
+      "status": "ok",
+      "records": 30
+    },
+    {
+      "source": "Crossref",
+      "topic": "chem",
+      "query": "metal organic framework single crystals",
+      "url": "https://api.crossref.org/works?query.title=metal+organic+framework+single+crystals&filter=from-pub-date%3A2026-09-29%2Cuntil-pub-date%3A2026-11-03%2Ctype%3Ajournal-article&rows=30&sort=relevance",
+      "status": "ok",
+      "records": 30
+    },
+    {
+      "source": "Crossref",
+      "topic": "chem",
+      "query": "metal organic framework stacking",
+      "url": "https://api.crossref.org/works?query.title=metal+organic+framework+stacking&filter=from-pub-date%3A2026-09-29%2Cuntil-pub-date%3A2026-11-03%2Ctype%3Ajournal-article&rows=30&sort=relevance",
+      "status": "ok",
+      "records": 30
+    },
+    {
+      "source": "Crossref",
+      "topic": "chem",
+      "query": "radical framework synthesis",
+      "url": "https://api.crossref.org/works?query.title=radical+framework+synthesis&filter=from-pub-date%3A2026-09-29%2Cuntil-pub-date%3A2026-11-03%2Ctype%3Ajournal-article&rows=30&sort=relevance",
+      "status": "ok",
+      "records": 30
+    },
+    {
+      "source": "Crossref",
+      "topic": "spin",
+      "query": "molecular qubit spin phonon relaxation",
+      "url": "https://api.crossref.org/works?query.bibliographic=molecular+qubit+spin+phonon+relaxation&filter=from-pub-date%3A2026-09-05%2Cuntil-pub-date%3A2026-11-04%2Ctype%3Ajournal-article&rows=25&sort=relevance",
+      "status": "ok",
+      "records": 25,
+      "reusedEvidence": true
+    },
+    {
+      "source": "Crossref",
+      "topic": "spin",
+      "query": "molecular spin qubit coherence radical",
+      "url": "https://api.crossref.org/works?query.bibliographic=molecular+spin+qubit+coherence+radical&filter=from-pub-date%3A2026-09-05%2Cuntil-pub-date%3A2026-11-04%2Ctype%3Ajournal-article&rows=25&sort=relevance",
+      "status": "ok",
+      "records": 25,
+      "reusedEvidence": true
+    },
+    {
+      "source": "Crossref",
+      "topic": "spin",
+      "query": "exchange coupled molecular spin qubit",
+      "url": "https://api.crossref.org/works?query.bibliographic=exchange+coupled+molecular+spin+qubit&filter=from-pub-date%3A2026-09-05%2Cuntil-pub-date%3A2026-11-04%2Ctype%3Ajournal-article&rows=25&sort=relevance",
+      "status": "ok",
+      "records": 25,
+      "reusedEvidence": true
+    },
+    {
+      "source": "Crossref",
+      "topic": "control",
+      "query": "optimal control magnetic resonance spin coherence",
+      "url": "https://api.crossref.org/works?query.bibliographic=optimal+control+magnetic+resonance+spin+coherence&filter=from-pub-date%3A2026-09-05%2Cuntil-pub-date%3A2026-11-04%2Ctype%3Ajournal-article&rows=25&sort=relevance",
+      "status": "ok",
+      "records": 25,
+      "reusedEvidence": true
+    },
+    {
+      "source": "Crossref",
+      "topic": "control",
+      "query": "dynamical decoupling electron spin magnetic resonance",
+      "url": "https://api.crossref.org/works?query.bibliographic=dynamical+decoupling+electron+spin+magnetic+resonance&filter=from-pub-date%3A2026-09-05%2Cuntil-pub-date%3A2026-11-04%2Ctype%3Ajournal-article&rows=25&sort=relevance",
+      "status": "ok",
+      "records": 25,
+      "reusedEvidence": true
+    },
+    {
+      "source": "Crossref",
+      "topic": "control",
+      "query": "quantum control pulse electron spin resonance",
+      "url": "https://api.crossref.org/works?query.bibliographic=quantum+control+pulse+electron+spin+resonance&filter=from-pub-date%3A2026-09-05%2Cuntil-pub-date%3A2026-11-04%2Ctype%3Ajournal-article&rows=25&sort=relevance",
+      "status": "ok",
+      "records": 25,
+      "reusedEvidence": true
+    },
+    {
+      "source": "Crossref",
+      "topic": "sense",
+      "query": "electron spin resonance nanoscale sensing",
+      "url": "https://api.crossref.org/works?query.bibliographic=electron+spin+resonance+nanoscale+sensing&filter=from-pub-date%3A2026-09-05%2Cuntil-pub-date%3A2026-11-04%2Ctype%3Ajournal-article&rows=25&sort=relevance",
+      "status": "ok",
+      "records": 25,
+      "reusedEvidence": true
+    },
+    {
+      "source": "Crossref",
+      "topic": "sense",
+      "query": "quantum sensing molecular spin qubit",
+      "url": "https://api.crossref.org/works?query.bibliographic=quantum+sensing+molecular+spin+qubit&filter=from-pub-date%3A2026-09-05%2Cuntil-pub-date%3A2026-11-04%2Ctype%3Ajournal-article&rows=25&sort=relevance",
+      "status": "ok",
+      "records": 25,
+      "reusedEvidence": true
+    },
+    {
+      "source": "Crossref",
+      "topic": "sense",
+      "query": "quantum sensing ion chemical recognition",
+      "url": "https://api.crossref.org/works?query.bibliographic=quantum+sensing+ion+chemical+recognition&filter=from-pub-date%3A2026-09-05%2Cuntil-pub-date%3A2026-11-04%2Ctype%3Ajournal-article&rows=25&sort=relevance",
+      "status": "ok",
+      "records": 25,
+      "reusedEvidence": true
+    },
+    {
+      "source": "Crossref",
+      "topic": "matter",
+      "query": "conductive metal organic framework electronic transport",
+      "url": "https://api.crossref.org/works?query.bibliographic=conductive+metal+organic+framework+electronic+transport&filter=from-pub-date%3A2026-09-05%2Cuntil-pub-date%3A2026-11-04%2Ctype%3Ajournal-article&rows=25&sort=relevance",
+      "status": "ok",
+      "records": 25,
+      "reusedEvidence": true
+    },
+    {
+      "source": "Crossref",
+      "topic": "matter",
+      "query": "metal organic framework magnetism electronic structure",
+      "url": "https://api.crossref.org/works?query.bibliographic=metal+organic+framework+magnetism+electronic+structure&filter=from-pub-date%3A2026-09-05%2Cuntil-pub-date%3A2026-11-04%2Ctype%3Ajournal-article&rows=25&sort=relevance",
+      "status": "ok",
+      "records": 25,
+      "reusedEvidence": true
+    },
+    {
+      "source": "Crossref",
+      "topic": "matter",
+      "query": "two dimensional metal organic framework device interface",
+      "url": "https://api.crossref.org/works?query.bibliographic=two+dimensional+metal+organic+framework+device+interface&filter=from-pub-date%3A2026-09-05%2Cuntil-pub-date%3A2026-11-04%2Ctype%3Ajournal-article&rows=25&sort=relevance",
+      "status": "ok",
+      "records": 25,
+      "reusedEvidence": true
+    },
+    {
+      "source": "Crossref",
+      "topic": "chem",
+      "query": "covalent organic framework radical synthesis",
+      "url": "https://api.crossref.org/works?query.bibliographic=covalent+organic+framework+radical+synthesis&filter=from-pub-date%3A2026-09-05%2Cuntil-pub-date%3A2026-11-04%2Ctype%3Ajournal-article&rows=25&sort=relevance",
+      "status": "ok",
+      "records": 25,
+      "reusedEvidence": true
+    },
+    {
+      "source": "Crossref",
+      "topic": "chem",
+      "query": "metal organic framework single crystal growth",
+      "url": "https://api.crossref.org/works?query.bibliographic=metal+organic+framework+single+crystal+growth&filter=from-pub-date%3A2026-09-05%2Cuntil-pub-date%3A2026-11-04%2Ctype%3Ajournal-article&rows=25&sort=relevance",
+      "status": "ok",
+      "records": 25,
+      "reusedEvidence": true
+    },
+    {
+      "source": "Crossref",
+      "topic": "chem",
+      "query": "metal organic framework stacking crystallization",
+      "url": "https://api.crossref.org/works?query.bibliographic=metal+organic+framework+stacking+crystallization&filter=from-pub-date%3A2026-09-05%2Cuntil-pub-date%3A2026-11-04%2Ctype%3Ajournal-article&rows=25&sort=relevance",
+      "status": "ok",
+      "records": 25,
+      "reusedEvidence": true
+    }
+  ],
+  "selectionPolicy": "Historical reconstruction by publication date, not discovery date: prefer papers published in the issue date or previous six days; only if fewer than three qualify in a direction, supplement from publication ages 7–29 days to reach three. Maximum five per direction; exclude existing library records and every other issue. First discovery and preparation timestamps retain their actual dates."
+}

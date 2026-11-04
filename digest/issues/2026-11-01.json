@@ -1,0 +1,374 @@
+{
+  "date": "2026-11-01",
+  "generatedAt": "2026-11-04T13:05:51+08:00",
+  "timezone": "Asia/Shanghai",
+  "bootstrap": false,
+  "mode": "historical-backfill",
+  "selectionDateBasis": "publicationDate",
+  "papers": [
+    {
+      "id": "doi:10.1002/zaac.70212",
+      "doi": "10.1002/zaac.70212",
+      "title": "A Novel Pyridine‐Derived Metal–Organic Framework Exhibiting Yellow‐Green Luminescence",
+      "authors": "Xiulan Ma, Yunfei Bai, Tian Chen, Jing Li, Jiaqi Qiao, Lian Zhou, Jun Zhang, Xiaopeng Xuan",
+      "journal": "Zeitschrift für anorganische und allgemeine Chemie",
+      "publicationDate": "2026-11-01",
+      "dateBasis": "Crossref published-online",
+      "sourceUrl": "https://doi.org/10.1002/zaac.70212",
+      "evidenceUrl": "https://api.crossref.org/works/10.1002%2Fzaac.70212",
+      "metadataSource": "Crossref",
+      "status": "Published",
+      "aliases": [],
+      "firstSeenDate": "2026-11-04",
+      "topic": "chem",
+      "summary": "Single-crystal diffraction resolves a layered pyridine-derived MOF with AAA stacking. Optical measurements and electronic-structure calculations examine its yellow-green emission, alongside characterization of thermal stability.",
+      "whyRelevant": "A modest structural comparison for relating layer stacking to optical properties; it does not demonstrate a quantum device.",
+      "readingBasis": "Publisher abstract via Crossref",
+      "relatedPapers": [
+        {
+          "id": "sunlab-record-13",
+          "reason": "Both connect framework assembly and stacking order with material properties."
+        }
+      ],
+      "earlierPublication": false
+    }
+  ],
+  "sources": [
+    {
+      "source": "Crossref",
+      "topic": "spin",
+      "query": "radical qubits",
+      "url": "https://api.crossref.org/works?query.title=radical+qubits&filter=from-pub-date%3A2026-09-29%2Cuntil-pub-date%3A2026-11-03%2Ctype%3Ajournal-article&rows=30&sort=relevance",
+      "status": "ok",
+      "records": 30
+    },
+    {
+      "source": "Crossref",
+      "topic": "spin",
+      "query": "molecular qubit",
+      "url": "https://api.crossref.org/works?query.title=molecular+qubit&filter=from-pub-date%3A2026-09-29%2Cuntil-pub-date%3A2026-11-03%2Ctype%3Ajournal-article&rows=30&sort=relevance",
+      "status": "ok",
+      "records": 30
+    },
+    {
+      "source": "Crossref",
+      "topic": "spin",
+      "query": "molecular spin coherence",
+      "url": "https://api.crossref.org/works?query.title=molecular+spin+coherence&filter=from-pub-date%3A2026-09-29%2Cuntil-pub-date%3A2026-11-03%2Ctype%3Ajournal-article&rows=30&sort=relevance",
+      "status": "ok",
+      "records": 30
+    },
+    {
+      "source": "Crossref",
+      "topic": "spin",
+      "query": "spin phonon relaxation",
+      "url": "https://api.crossref.org/works?query.title=spin+phonon+relaxation&filter=from-pub-date%3A2026-09-29%2Cuntil-pub-date%3A2026-11-03%2Ctype%3Ajournal-article&rows=30&sort=relevance",
+      "status": "ok",
+      "records": 30
+    },
+    {
+      "source": "Crossref",
+      "topic": "control",
+      "query": "dynamical decoupling",
+      "url": "https://api.crossref.org/works?query.title=dynamical+decoupling&filter=from-pub-date%3A2026-09-29%2Cuntil-pub-date%3A2026-11-03%2Ctype%3Ajournal-article&rows=30&sort=relevance",
+      "status": "ok",
+      "records": 30
+    },
+    {
+      "source": "Crossref",
+      "topic": "spin",
+      "query": "molecular electron spin",
+      "url": "https://api.crossref.org/works?query.title=molecular+electron+spin&filter=from-pub-date%3A2026-09-29%2Cuntil-pub-date%3A2026-11-03%2Ctype%3Ajournal-article&rows=30&sort=relevance",
+      "status": "ok",
+      "records": 30
+    },
+    {
+      "source": "Crossref",
+      "topic": "control",
+      "query": "magnetic resonance pulse control",
+      "url": "https://api.crossref.org/works?query.title=magnetic+resonance+pulse+control&filter=from-pub-date%3A2026-09-29%2Cuntil-pub-date%3A2026-11-03%2Ctype%3Ajournal-article&rows=30&sort=relevance",
+      "status": "ok",
+      "records": 30
+    },
+    {
+      "source": "Crossref",
+      "topic": "control",
+      "query": "spin control noise spectroscopy",
+      "url": "https://api.crossref.org/works?query.title=spin+control+noise+spectroscopy&filter=from-pub-date%3A2026-09-29%2Cuntil-pub-date%3A2026-11-03%2Ctype%3Ajournal-article&rows=30&sort=relevance",
+      "status": "ok",
+      "records": 30
+    },
+    {
+      "source": "Crossref",
+      "topic": "control",
+      "query": "electron spin echo",
+      "url": "https://api.crossref.org/works?query.title=electron+spin+echo&filter=from-pub-date%3A2026-09-29%2Cuntil-pub-date%3A2026-11-03%2Ctype%3Ajournal-article&rows=30&sort=relevance",
+      "status": "ok",
+      "records": 30
+    },
+    {
+      "source": "Crossref",
+      "topic": "control",
+      "query": "electron nuclear double resonance",
+      "url": "https://api.crossref.org/works?query.title=electron+nuclear+double+resonance&filter=from-pub-date%3A2026-09-29%2Cuntil-pub-date%3A2026-11-03%2Ctype%3Ajournal-article&rows=30&sort=relevance",
+      "status": "ok",
+      "records": 30
+    },
+    {
+      "source": "Crossref",
+      "topic": "sense",
+      "query": "quantum sensing",
+      "url": "https://api.crossref.org/works?query.title=quantum+sensing&filter=from-pub-date%3A2026-09-29%2Cuntil-pub-date%3A2026-11-03%2Ctype%3Ajournal-article&rows=30&sort=relevance",
+      "status": "ok",
+      "records": 30
+    },
+    {
+      "source": "Crossref",
+      "topic": "sense",
+      "query": "spin sensing",
+      "url": "https://api.crossref.org/works?query.title=spin+sensing&filter=from-pub-date%3A2026-09-29%2Cuntil-pub-date%3A2026-11-03%2Ctype%3Ajournal-article&rows=30&sort=relevance",
+      "status": "ok",
+      "records": 30
+    },
+    {
+      "source": "Crossref",
+      "topic": "sense",
+      "query": "electron paramagnetic resonance probe",
+      "url": "https://api.crossref.org/works?query.title=electron+paramagnetic+resonance+probe&filter=from-pub-date%3A2026-09-29%2Cuntil-pub-date%3A2026-11-03%2Ctype%3Ajournal-article&rows=30&sort=relevance",
+      "status": "ok",
+      "records": 30
+    },
+    {
+      "source": "Crossref",
+      "topic": "sense",
+      "query": "diamond nanoscale sensing",
+      "url": "https://api.crossref.org/works?query.title=diamond+nanoscale+sensing&filter=from-pub-date%3A2026-09-29%2Cuntil-pub-date%3A2026-11-03%2Ctype%3Ajournal-article&rows=30&sort=relevance",
+      "status": "ok",
+      "records": 30
+    },
+    {
+      "source": "Crossref",
+      "topic": "sense",
+      "query": "molecular quantum sensor",
+      "url": "https://api.crossref.org/works?query.title=molecular+quantum+sensor&filter=from-pub-date%3A2026-09-29%2Cuntil-pub-date%3A2026-11-03%2Ctype%3Ajournal-article&rows=30&sort=relevance",
+      "status": "ok",
+      "records": 30
+    },
+    {
+      "source": "Crossref",
+      "topic": "matter",
+      "query": "conductive metal organic framework",
+      "url": "https://api.crossref.org/works?query.title=conductive+metal+organic+framework&filter=from-pub-date%3A2026-09-29%2Cuntil-pub-date%3A2026-11-03%2Ctype%3Ajournal-article&rows=30&sort=relevance",
+      "status": "ok",
+      "records": 30
+    },
+    {
+      "source": "Crossref",
+      "topic": "matter",
+      "query": "two dimensional molecular electronic",
+      "url": "https://api.crossref.org/works?query.title=two+dimensional+molecular+electronic&filter=from-pub-date%3A2026-09-29%2Cuntil-pub-date%3A2026-11-03%2Ctype%3Ajournal-article&rows=30&sort=relevance",
+      "status": "ok",
+      "records": 30
+    },
+    {
+      "source": "Crossref",
+      "topic": "matter",
+      "query": "metal organic framework electronic",
+      "url": "https://api.crossref.org/works?query.title=metal+organic+framework+electronic&filter=from-pub-date%3A2026-09-29%2Cuntil-pub-date%3A2026-11-03%2Ctype%3Ajournal-article&rows=30&sort=relevance",
+      "status": "ok",
+      "records": 30
+    },
+    {
+      "source": "Crossref",
+      "topic": "matter",
+      "query": "organic spin transport",
+      "url": "https://api.crossref.org/works?query.title=organic+spin+transport&filter=from-pub-date%3A2026-09-29%2Cuntil-pub-date%3A2026-11-03%2Ctype%3Ajournal-article&rows=30&sort=relevance",
+      "status": "ok",
+      "records": 30
+    },
+    {
+      "source": "Crossref",
+      "topic": "matter",
+      "query": "framework magnetism",
+      "url": "https://api.crossref.org/works?query.title=framework+magnetism&filter=from-pub-date%3A2026-09-29%2Cuntil-pub-date%3A2026-11-03%2Ctype%3Ajournal-article&rows=30&sort=relevance",
+      "status": "ok",
+      "records": 30
+    },
+    {
+      "source": "Crossref",
+      "topic": "chem",
+      "query": "covalent organic framework crystallization",
+      "url": "https://api.crossref.org/works?query.title=covalent+organic+framework+crystallization&filter=from-pub-date%3A2026-09-29%2Cuntil-pub-date%3A2026-11-03%2Ctype%3Ajournal-article&rows=30&sort=relevance",
+      "status": "ok",
+      "records": 30
+    },
+    {
+      "source": "Crossref",
+      "topic": "chem",
+      "query": "covalent organic framework synthesis",
+      "url": "https://api.crossref.org/works?query.title=covalent+organic+framework+synthesis&filter=from-pub-date%3A2026-09-29%2Cuntil-pub-date%3A2026-11-03%2Ctype%3Ajournal-article&rows=30&sort=relevance",
+      "status": "ok",
+      "records": 30
+    },
+    {
+      "source": "Crossref",
+      "topic": "chem",
+      "query": "metal organic framework single crystals",
+      "url": "https://api.crossref.org/works?query.title=metal+organic+framework+single+crystals&filter=from-pub-date%3A2026-09-29%2Cuntil-pub-date%3A2026-11-03%2Ctype%3Ajournal-article&rows=30&sort=relevance",
+      "status": "ok",
+      "records": 30
+    },
+    {
+      "source": "Crossref",
+      "topic": "chem",
+      "query": "metal organic framework stacking",
+      "url": "https://api.crossref.org/works?query.title=metal+organic+framework+stacking&filter=from-pub-date%3A2026-09-29%2Cuntil-pub-date%3A2026-11-03%2Ctype%3Ajournal-article&rows=30&sort=relevance",
+      "status": "ok",
+      "records": 30
+    },
+    {
+      "source": "Crossref",
+      "topic": "chem",
+      "query": "radical framework synthesis",
+      "url": "https://api.crossref.org/works?query.title=radical+framework+synthesis&filter=from-pub-date%3A2026-09-29%2Cuntil-pub-date%3A2026-11-03%2Ctype%3Ajournal-article&rows=30&sort=relevance",
+      "status": "ok",
+      "records": 30
+    },
+    {
+      "source": "Crossref",
+      "topic": "spin",
+      "query": "molecular qubit spin phonon relaxation",
+      "url": "https://api.crossref.org/works?query.bibliographic=molecular+qubit+spin+phonon+relaxation&filter=from-pub-date%3A2026-09-05%2Cuntil-pub-date%3A2026-11-04%2Ctype%3Ajournal-article&rows=25&sort=relevance",
+      "status": "ok",
+      "records": 25,
+      "reusedEvidence": true
+    },
+    {
+      "source": "Crossref",
+      "topic": "spin",
+      "query": "molecular spin qubit coherence radical",
+      "url": "https://api.crossref.org/works?query.bibliographic=molecular+spin+qubit+coherence+radical&filter=from-pub-date%3A2026-09-05%2Cuntil-pub-date%3A2026-11-04%2Ctype%3Ajournal-article&rows=25&sort=relevance",
+      "status": "ok",
+      "records": 25,
+      "reusedEvidence": true
+    },
+    {
+      "source": "Crossref",
+      "topic": "spin",
+      "query": "exchange coupled molecular spin qubit",
+      "url": "https://api.crossref.org/works?query.bibliographic=exchange+coupled+molecular+spin+qubit&filter=from-pub-date%3A2026-09-05%2Cuntil-pub-date%3A2026-11-04%2Ctype%3Ajournal-article&rows=25&sort=relevance",
+      "status": "ok",
+      "records": 25,
+      "reusedEvidence": true
+    },
+    {
+      "source": "Crossref",
+      "topic": "control",
+      "query": "optimal control magnetic resonance spin coherence",
+      "url": "https://api.crossref.org/works?query.bibliographic=optimal+control+magnetic+resonance+spin+coherence&filter=from-pub-date%3A2026-09-05%2Cuntil-pub-date%3A2026-11-04%2Ctype%3Ajournal-article&rows=25&sort=relevance",
+      "status": "ok",
+      "records": 25,
+      "reusedEvidence": true
+    },
+    {
+      "source": "Crossref",
+      "topic": "control",
+      "query": "dynamical decoupling electron spin magnetic resonance",
+      "url": "https://api.crossref.org/works?query.bibliographic=dynamical+decoupling+electron+spin+magnetic+resonance&filter=from-pub-date%3A2026-09-05%2Cuntil-pub-date%3A2026-11-04%2Ctype%3Ajournal-article&rows=25&sort=relevance",
+      "status": "ok",
+      "records": 25,
+      "reusedEvidence": true
+    },
+    {
+      "source": "Crossref",
+      "topic": "control",
+      "query": "quantum control pulse electron spin resonance",
+      "url": "https://api.crossref.org/works?query.bibliographic=quantum+control+pulse+electron+spin+resonance&filter=from-pub-date%3A2026-09-05%2Cuntil-pub-date%3A2026-11-04%2Ctype%3Ajournal-article&rows=25&sort=relevance",
+      "status": "ok",
+      "records": 25,
+      "reusedEvidence": true
+    },
+    {
+      "source": "Crossref",
+      "topic": "sense",
+      "query": "electron spin resonance nanoscale sensing",
+      "url": "https://api.crossref.org/works?query.bibliographic=electron+spin+resonance+nanoscale+sensing&filter=from-pub-date%3A2026-09-05%2Cuntil-pub-date%3A2026-11-04%2Ctype%3Ajournal-article&rows=25&sort=relevance",
+      "status": "ok",
+      "records": 25,
+      "reusedEvidence": true
+    },
+    {
+      "source": "Crossref",
+      "topic": "sense",
+      "query": "quantum sensing molecular spin qubit",
+      "url": "https://api.crossref.org/works?query.bibliographic=quantum+sensing+molecular+spin+qubit&filter=from-pub-date%3A2026-09-05%2Cuntil-pub-date%3A2026-11-04%2Ctype%3Ajournal-article&rows=25&sort=relevance",
+      "status": "ok",
+      "records": 25,
+      "reusedEvidence": true
+    },
+    {
+      "source": "Crossref",
+      "topic": "sense",
+      "query": "quantum sensing ion chemical recognition",
+      "url": "https://api.crossref.org/works?query.bibliographic=quantum+sensing+ion+chemical+recognition&filter=from-pub-date%3A2026-09-05%2Cuntil-pub-date%3A2026-11-04%2Ctype%3Ajournal-article&rows=25&sort=relevance",
+      "status": "ok",
+      "records": 25,
+      "reusedEvidence": true
+    },
+    {
+      "source": "Crossref",
+      "topic": "matter",
+      "query": "conductive metal organic framework electronic transport",
+      "url": "https://api.crossref.org/works?query.bibliographic=conductive+metal+organic+framework+electronic+transport&filter=from-pub-date%3A2026-09-05%2Cuntil-pub-date%3A2026-11-04%2Ctype%3Ajournal-article&rows=25&sort=relevance",
+      "status": "ok",
+      "records": 25,
+      "reusedEvidence": true
+    },
+    {
+      "source": "Crossref",
+      "topic": "matter",
+      "query": "metal organic framework magnetism electronic structure",
+      "url": "https://api.crossref.org/works?query.bibliographic=metal+organic+framework+magnetism+electronic+structure&filter=from-pub-date%3A2026-09-05%2Cuntil-pub-date%3A2026-11-04%2Ctype%3Ajournal-article&rows=25&sort=relevance",
+      "status": "ok",
+      "records": 25,
+      "reusedEvidence": true
+    },
+    {
+      "source": "Crossref",
+      "topic": "matter",
+      "query": "two dimensional metal organic framework device interface",
+      "url": "https://api.crossref.org/works?query.bibliographic=two+dimensional+metal+organic+framework+device+interface&filter=from-pub-date%3A2026-09-05%2Cuntil-pub-date%3A2026-11-04%2Ctype%3Ajournal-article&rows=25&sort=relevance",
+      "status": "ok",
+      "records": 25,
+      "reusedEvidence": true
+    },
+    {
+      "source": "Crossref",
+      "topic": "chem",
+      "query": "covalent organic framework radical synthesis",
+      "url": "https://api.crossref.org/works?query.bibliographic=covalent+organic+framework+radical+synthesis&filter=from-pub-date%3A2026-09-05%2Cuntil-pub-date%3A2026-11-04%2Ctype%3Ajournal-article&rows=25&sort=relevance",
+      "status": "ok",
+      "records": 25,
+      "reusedEvidence": true
+    },
+    {
+      "source": "Crossref",
+      "topic": "chem",
+      "query": "metal organic framework single crystal growth",
+      "url": "https://api.crossref.org/works?query.bibliographic=metal+organic+framework+single+crystal+growth&filter=from-pub-date%3A2026-09-05%2Cuntil-pub-date%3A2026-11-04%2Ctype%3Ajournal-article&rows=25&sort=relevance",
+      "status": "ok",
+      "records": 25,
+      "reusedEvidence": true
+    },
+    {
+      "source": "Crossref",
+      "topic": "chem",
+      "query": "metal organic framework stacking crystallization",
+      "url": "https://api.crossref.org/works?query.bibliographic=metal+organic+framework+stacking+crystallization&filter=from-pub-date%3A2026-09-05%2Cuntil-pub-date%3A2026-11-04%2Ctype%3Ajournal-article&rows=25&sort=relevance",
+      "status": "ok",
+      "records": 25,
+      "reusedEvidence": true
+    }
+  ],
+  "selectionPolicy": "Historical reconstruction by publication date, not discovery date: prefer papers published in the issue date or previous six days; only if fewer than three qualify in a direction, supplement from publication ages 7–29 days to reach three. Maximum five per direction; exclude existing library records and every other issue. First discovery and preparation timestamps retain their actual dates."
+}
