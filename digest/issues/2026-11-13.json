@@ -1,0 +1,1363 @@
+{
+  "date": "2026-11-13",
+  "generatedAt": "2026-11-13T07:13:05+08:00",
+  "timezone": "Asia/Shanghai",
+  "bootstrap": false,
+  "collectorVersion": 2,
+  "papers": [
+    {
+      "id": "doi:10.1021/acsnano.6c14389",
+      "doi": "10.1021/acsnano.6c14389",
+      "title": "Addressable Control of Hybrid Spin Qubit in Single-Atom Copper-Modified Fullerene",
+      "authors": "Bingcai Chen, Jiahao Chen, Pengxiang Fu, Di Zhang, Hao Li, Jiayue Yuan, Jianyu Liu, Dahui Zhao, Tian Jiang, Gao-Lei Hou, Shanshan Wang, Shen Zhou",
+      "journal": "ACS Nano",
+      "publicationDate": "2026-11-10",
+      "dateBasis": "Crossref published-online",
+      "sourceUrl": "https://doi.org/10.1021/acsnano.6c14389",
+      "evidenceUrl": "https://api.crossref.org/works/10.1021%2Facsnano.6c14389",
+      "metadataSource": "Crossref",
+      "status": "Published",
+      "aliases": [],
+      "abstractComplete": true,
+      "readingBasis": "Publisher abstract via Crossref",
+      "discoveredVia": [
+        "https://api.crossref.org/works?query=molecular+spin+qubit+coherence&filter=from-pub-date%3A2026-11-07%2Cuntil-pub-date%3A2026-11-13%2Ctype%3Ajournal-article&rows=30"
+      ],
+      "firstSeenDate": "2026-11-13",
+      "topic": "spin",
+      "summary": "Copper centers dispersed in a magnetically quiet fullerene matrix support coherent electron and nuclear spin manipulation. Dynamical decoupling extends electron coherence, while quadrupolar splitting enables selective access to nuclear levels and hyperfine coupling accelerates nuclear rotations.",
+      "whyRelevant": "Editorial assessment: Directly relevant to chemically engineered hybrid spin registers, electron-nuclear addressability, and coherence-preserving molecular host design.",
+      "relatedPapers": [
+        {
+          "id": "sunlab-record-30",
+          "reason": "Both examine coherent manipulation and addressability in molecularly constructed electron-spin platforms."
+        }
+      ],
+      "earlierDiscovery": false
+    },
+    {
+      "id": "doi:10.1021/acs.jctc.6c01786",
+      "doi": "10.1021/acs.jctc.6c01786",
+      "title": "Periodic Trends in Radical-Mediated Exchange Coupling and Magnetic Anisotropy in Ln2N2 Complexes",
+      "authors": "Md. Ashraful Islam, Nicholas F. Chilton",
+      "journal": "Journal of Chemical Theory and Computation",
+      "publicationDate": "2026-11-12",
+      "dateBasis": "Crossref published-online",
+      "sourceUrl": "https://doi.org/10.1021/acs.jctc.6c01786",
+      "evidenceUrl": "https://api.crossref.org/works/10.1021%2Facs.jctc.6c01786",
+      "metadataSource": "Crossref",
+      "status": "Published",
+      "aliases": [],
+      "abstractComplete": true,
+      "readingBasis": "Publisher abstract via Crossref",
+      "discoveredVia": [
+        "https://api.crossref.org/journals/1549-9618/works?filter=from-pub-date%3A2026-11-07%2Cuntil-pub-date%3A2026-11-13%2Ctype%3Ajournal-article&rows=1000&cursor=%2A"
+      ],
+      "archiveJournal": "Journal of Chemical Theory and Computation",
+      "firstSeenDate": "2026-11-13",
+      "topic": "spin",
+      "summary": "Multiconfigurational calculations compare radical-bridged lanthanide dimers across the series, separating crystal-field anisotropy from exchange interactions. The analysis identifies dominant virtual electron-transfer contributions in the gadolinium analogue and describes how exchange varies despite a broadly similar crystal-field potential.",
+      "whyRelevant": "Editorial assessment: Provides a molecular-level framework for interpreting radical-mediated exchange and anisotropy; this is a computational magnetism study, not a qubit-coherence demonstration.",
+      "relatedPapers": [
+        {
+          "id": "sunlab-record-2",
+          "reason": "Connects radical-based molecular architectures with the control of magnetic interactions."
+        }
+      ],
+      "earlierDiscovery": false
+    },
+    {
+      "id": "doi:10.1103/j1w1-36cy",
+      "doi": "10.1103/j1w1-36cy",
+      "title": "Phonon-Bottlenecked Spin Relaxation of Er 3 + : CaWO 4 at MilliKelvin Temperatures",
+      "authors": "S. Rajendran, B. Mistri, P. K. Sharma, S. E. Kubatkin, A. V. Danilov, S. Dhomkar, S. E. de Graaf, V. Ranjan",
+      "journal": "Physical Review Letters",
+      "publicationDate": "2026-11-12",
+      "dateBasis": "Crossref published-online",
+      "sourceUrl": "https://link.aps.org/doi/10.1103/j1w1-36cy",
+      "evidenceUrl": "https://arxiv.org/abs/2605.18208",
+      "abstractComplete": true,
+      "readingBasis": "arXiv abstract of linked preprint",
+      "metadataSource": "Crossref",
+      "status": "Published",
+      "aliases": [
+        "arxiv:2605.18208",
+        "doi:10.1103/j1w1-36cy",
+        "title:phononbottleneckedspinrelaxationofer3cawo4atmillikelvintemperatures",
+        "title:phononbottleneckedspinrelaxationofmathrmer3mathrmcawo4atmillikelvintemperatures"
+      ],
+      "discoveredVia": [
+        "https://feeds.aps.org/rss/recent/prl.xml",
+        "https://api.crossref.org/journals/0031-9007/works?filter=from-pub-date%3A2026-11-07%2Cuntil-pub-date%3A2026-11-13%2Ctype%3Ajournal-article&rows=1000&cursor=%2A"
+      ],
+      "feedDate": "2026-11-12",
+      "articleType": "article",
+      "archiveJournal": "Physical Review Letters",
+      "firstSeenDate": "2026-11-13",
+      "versionEvidence": "Matching title and author list in publisher metadata and arXiv record",
+      "topic": "control",
+      "summary": "Electron-spin relaxation in erbium-doped calcium tungstate is measured through coupling to a superconducting resonator at millikelvin temperatures. Excitation-dependent relaxation and its temperature dependence support a phonon-bottleneck interpretation, highlighting limitations on relaxation in rare-earth spin ensembles.",
+      "whyRelevant": "Editorial assessment: Provides an experimental comparison for identifying phonon-related relaxation mechanisms and excitation-dependent effects in spin materials.",
+      "relatedPapers": [
+        {
+          "id": "lab-6",
+          "reason": "Both investigate unusual spin-lattice relaxation and the role of the phonon environment."
+        }
+      ],
+      "earlierDiscovery": false
+    },
+    {
+      "id": "arxiv:2507.10661",
+      "arxivId": "2507.10661",
+      "doi": "",
+      "title": "Optimal Calibration of Qubit Detuning and Crosstalk",
+      "authors": "David Shnaiderov, Matan Ben Dov, Yoav Woldiger, Assaf Hamo, Eugene Demler, Emanuele G. Dalla Torre",
+      "journal": "arXiv",
+      "publicationDate": "2025-07-14",
+      "dateBasis": "arXiv initial submission (UTC)",
+      "sourceUrl": "https://arxiv.org/abs/2507.10661",
+      "evidenceUrl": "https://arxiv.org/abs/2507.10661",
+      "abstractComplete": true,
+      "readingBasis": "arXiv abstract",
+      "metadataSource": "arXiv API",
+      "status": "Preprint",
+      "aliases": [],
+      "discoveredVia": [
+        "https://export.arxiv.org/api/query?id_list=2609.24295%2C2602.06421%2C2610.29279%2C2611.13799%2C2507.10661&max_results=8"
+      ],
+      "announceType": "replace",
+      "firstSeenDate": "2026-11-12",
+      "submissionTimestamp": "2025-07-14T18:00:02Z",
+      "categories": [
+        "quant-ph",
+        "cond-mat.other",
+        "cond-mat.stat-mech",
+        "math-ph",
+        "physics.data-an"
+      ],
+      "journalReference": "",
+      "topic": "control",
+      "summary": "Ramsey protocols are optimized using Fisher information to estimate qubit detuning and crosstalk. Theory and experiments with an NV center and superconducting transmons favor measuring two quadratures at one time, reducing calibration effort while preserving parameter accuracy.",
+      "whyRelevant": "Editorial assessment: Calibration strategies can help distinguish control imperfections from intrinsic coherence loss in spin experiments.",
+      "relatedPapers": [
+        {
+          "id": "lab-2",
+          "reason": "Both address measurement reliability in the presence of imperfect qubit control."
+        }
+      ],
+      "earlierDiscovery": false
+    },
+    {
+      "id": "doi:10.1103/znwb-71hy",
+      "doi": "10.1103/znwb-71hy",
+      "title": "Quantum transport in disordered spin networks: Emergent timescales and competing pathways",
+      "authors": "Roi Nevo, Brett Min, Maggie Lawrence, Dvira Segal, Nir Bar-Gill",
+      "journal": "Physical Review Research",
+      "publicationDate": "2026-11-12",
+      "dateBasis": "Crossref published-online",
+      "sourceUrl": "https://link.aps.org/doi/10.1103/znwb-71hy",
+      "evidenceUrl": "https://api.crossref.org/works/10.1103%2Fznwb-71hy",
+      "abstractComplete": true,
+      "readingBasis": "Publisher abstract via Crossref",
+      "metadataSource": "Crossref",
+      "status": "Published",
+      "aliases": [
+        "doi:10.1103/znwb-71hy",
+        "title:quantumtransportindisorderedspinnetworksemergenttimescalesandcompetingpathways"
+      ],
+      "discoveredVia": [
+        "https://feeds.aps.org/rss/recent/prresearch.xml",
+        "https://api.crossref.org/journals/2643-1564/works?filter=from-pub-date%3A2026-11-07%2Cuntil-pub-date%3A2026-11-13%2Ctype%3Ajournal-article&rows=1000&cursor=%2A"
+      ],
+      "feedDate": "2026-11-12",
+      "articleType": "article",
+      "archiveJournal": "Physical Review Research",
+      "firstSeenDate": "2026-11-13",
+      "topic": "control",
+      "summary": "A dissipative model of a spin impurity coupled to a small disordered spin network develops widely separated relaxation timescales. Simulations and a minimal three-site model attribute slow transfer to hierarchical couplings and effective detuning generated by strongly hybridized clusters.",
+      "whyRelevant": "Editorial assessment: Helps assess whether heterogeneous spin networks can produce slow relaxation without assuming a single homogeneous bath.",
+      "relatedPapers": [
+        {
+          "id": "sunlab-record-31",
+          "reason": "Connects microscopic open-system dynamics with the interpretation of measured relaxation rates."
+        }
+      ],
+      "earlierDiscovery": false
+    },
+    {
+      "id": "arxiv:2609.24295",
+      "arxivId": "2609.24295",
+      "doi": "",
+      "title": "Theoretical study of nitrogen-vacancy spin coherence enhanced by vacancy aggregation in diamond using cluster-correlation expansion",
+      "authors": "Chikara Shinei",
+      "journal": "arXiv",
+      "publicationDate": "2026-09-21",
+      "dateBasis": "arXiv initial submission (UTC)",
+      "sourceUrl": "https://arxiv.org/abs/2609.24295",
+      "evidenceUrl": "https://arxiv.org/abs/2609.24295",
+      "abstractComplete": true,
+      "readingBasis": "arXiv abstract",
+      "metadataSource": "arXiv API",
+      "status": "Preprint",
+      "aliases": [
+        "arxiv:2609.24295",
+        "title:theoreticalstudyofnitrogenvacancyspincoherenceenhancedbyvacancyaggregationindiamondusingclustercorrelationexpansion"
+      ],
+      "discoveredVia": [
+        "https://export.arxiv.org/api/query?id_list=2609.24295%2C2602.06421%2C2610.29279%2C2611.13799%2C2507.10661&max_results=8"
+      ],
+      "announceType": "replace",
+      "firstSeenDate": "2026-11-12",
+      "submissionTimestamp": "2026-09-21T08:56:14Z",
+      "categories": [
+        "cond-mat.mtrl-sci",
+        "quant-ph"
+      ],
+      "journalReference": "",
+      "topic": "control",
+      "summary": "Cluster-correlation-expansion simulations predict that vacancy aggregation can lengthen NV Hahn-echo coherence at fixed paramagnetic spin density. Direction-dependent transition frequencies suppress resonant bath-spin exchange, challenging the assumption that all vacancy complexes necessarily worsen coherence.",
+      "whyRelevant": "Editorial assessment: Offers a concrete bath-dynamics mechanism to examine when interpreting coherence changes after defect processing; the result is theoretical.",
+      "relatedPapers": [
+        {
+          "id": "lab-2",
+          "reason": "Complements reliable echo characterization by examining the microscopic bath dynamics behind coherence decay."
+        }
+      ],
+      "earlierDiscovery": false
+    },
+    {
+      "id": "doi:10.1021/acs.jctc.6c00858",
+      "doi": "10.1021/acs.jctc.6c00858",
+      "title": "Multilayer Multistate Reaction Coordinate Model for Nonadiabatic Dynamics in Open Quantum Systems",
+      "authors": "Hao Zeng, Xiang Sun",
+      "journal": "Journal of Chemical Theory and Computation",
+      "publicationDate": "2026-11-12",
+      "dateBasis": "Crossref published-online",
+      "sourceUrl": "https://doi.org/10.1021/acs.jctc.6c00858",
+      "evidenceUrl": "https://api.crossref.org/works/10.1021%2Facs.jctc.6c00858",
+      "metadataSource": "Crossref",
+      "status": "Published",
+      "aliases": [],
+      "abstractComplete": true,
+      "readingBasis": "Publisher abstract via Crossref",
+      "discoveredVia": [
+        "https://api.crossref.org/journals/1549-9618/works?filter=from-pub-date%3A2026-11-07%2Cuntil-pub-date%3A2026-11-13%2Ctype%3Ajournal-article&rows=1000&cursor=%2A"
+      ],
+      "archiveJournal": "Journal of Chemical Theory and Computation",
+      "firstSeenDate": "2026-11-13",
+      "topic": "control",
+      "summary": "A hierarchical reaction-coordinate transformation maps multistate harmonic environments into chains of collective modes. Benchmarks include spin-boson and molecular charge-transfer models; truncated chains reproduce the tested dynamics with fewer degrees of freedom while exposing relationships between nuclear motion and electronic populations.",
+      "whyRelevant": "Editorial assessment: Offers a computational route for reducing structured environments in models of molecular spin and charge dynamics; accuracy must be checked for each truncation.",
+      "relatedPapers": [
+        {
+          "id": "sunlab-record-31",
+          "reason": "Both use explicit environment models to study dynamics beyond simple perturbative relaxation descriptions."
+        }
+      ],
+      "earlierDiscovery": false
+    },
+    {
+      "id": "arxiv:2610.29279",
+      "arxivId": "2610.29279",
+      "doi": "",
+      "title": "Low-field dephasing time of an optically polarized NV$^-$ spin bath beyond the P1 limit in diamond: a cluster-correlation-expansion and exact spin-bath study",
+      "authors": "Chikara Shinei",
+      "journal": "arXiv",
+      "publicationDate": "2026-10-21",
+      "dateBasis": "arXiv initial submission (UTC)",
+      "sourceUrl": "https://arxiv.org/abs/2610.29279",
+      "evidenceUrl": "https://arxiv.org/abs/2610.29279",
+      "abstractComplete": true,
+      "readingBasis": "arXiv abstract",
+      "metadataSource": "arXiv API",
+      "status": "Preprint",
+      "aliases": [],
+      "discoveredVia": [
+        "https://export.arxiv.org/api/query?id_list=2609.24295%2C2602.06421%2C2610.29279%2C2611.13799%2C2507.10661&max_results=8"
+      ],
+      "announceType": "replace",
+      "firstSeenDate": "2026-11-12",
+      "submissionTimestamp": "2026-10-21T06:34:28Z",
+      "categories": [
+        "quant-ph"
+      ],
+      "journalReference": "",
+      "topic": "sense",
+      "summary": "Spin-bath simulations compare optically polarized NV ensembles with substitutional-nitrogen baths at equal density. They predict longer dephasing times at low fields, while off-axis moments erode the advantage at higher fields and bath relaxation limits Hahn-echo gains.",
+      "whyRelevant": "Editorial assessment: Provides field-dependent design guidance for ensemble spin sensing; the predicted gains are simulations, not new experimental sensitivity measurements.",
+      "relatedPapers": [
+        {
+          "id": "lab-3",
+          "reason": "Complements sensing-sequence design by examining the bath-limited coherence available to a sensor."
+        }
+      ],
+      "earlierDiscovery": false
+    },
+    {
+      "id": "doi:10.1021/acs.inorgchem.6c03917",
+      "doi": "10.1021/acs.inorgchem.6c03917",
+      "title": "Synthesis and Crystal Structure of a Tb(III)-MOF and Its Luminescent Sensing for Erythromycin, Tetracycline, and 3,5-Dinitrosalicylic Acid",
+      "authors": "Rui Dai, Xinyue Guo, Chunxue Zhou, Yue She, Zhiguo Kong, Xuecheng Chen",
+      "journal": "Inorganic Chemistry",
+      "publicationDate": "2026-11-12",
+      "dateBasis": "Crossref published-online",
+      "sourceUrl": "https://doi.org/10.1021/acs.inorgchem.6c03917",
+      "evidenceUrl": "https://api.crossref.org/works/10.1021%2Facs.inorgchem.6c03917",
+      "metadataSource": "Crossref",
+      "status": "Published",
+      "aliases": [],
+      "abstractComplete": true,
+      "readingBasis": "Publisher abstract via Crossref",
+      "discoveredVia": [
+        "https://api.crossref.org/journals/0020-1669/works?filter=from-pub-date%3A2026-11-07%2Cuntil-pub-date%3A2026-11-13%2Ctype%3Ajournal-article&rows=1000&cursor=%2A"
+      ],
+      "archiveJournal": "Inorganic Chemistry",
+      "firstSeenDate": "2026-11-13",
+      "topic": "sense",
+      "summary": "A terbium MOF detects three aqueous analytes through luminescence quenching and is incorporated into test strips. Time-resolved emission and XPS indicate analyte-dependent pathways, including collision quenching, competitive absorption, electron transfer, and interactions involving defect sites.",
+      "whyRelevant": "Editorial assessment: Useful for comparing chemical selectivity and competing readout mechanisms in porous sensors; the readout is luminescent rather than spin-quantum sensing.",
+      "relatedPapers": [
+        {
+          "id": "sunlab-record-8",
+          "reason": "Both couple analyte recognition in a porous framework to a measurable response, using different readout mechanisms."
+        }
+      ],
+      "earlierDiscovery": false
+    },
+    {
+      "id": "doi:10.1021/acs.cgd.6c00584",
+      "doi": "10.1021/acs.cgd.6c00584",
+      "title": "Innovative Zinc(II) Metal−Organic Frameworks Featuring Pyridine-Sulfonate-Imine Linkers for Microextraction of Plasticizers and Selective Luminescent Detection of Toxic Oxyanions",
+      "authors": "Azadeh Mirzaahmadi, Sakha Pezhhanfar, Seyed Abolfazl Hosseini-Yazdi, Mir Ali Farajzadeh, Mahdi Khodaparast Aval, Morgane Poupon, Erika Samolova, Michal Dušek, Seyyed Morteza Seyyed Alavi",
+      "journal": "Crystal Growth & Design",
+      "publicationDate": "2026-11-07",
+      "dateBasis": "Crossref published-online",
+      "sourceUrl": "https://doi.org/10.1021/acs.cgd.6c00584",
+      "evidenceUrl": "https://api.crossref.org/works/10.1021%2Facs.cgd.6c00584",
+      "metadataSource": "Crossref",
+      "status": "Published",
+      "aliases": [],
+      "abstractComplete": true,
+      "readingBasis": "Publisher abstract via Crossref",
+      "discoveredVia": [
+        "https://api.crossref.org/works?query=metal+organic+framework+crystal+growth+stacking&filter=from-pub-date%3A2026-11-07%2Cuntil-pub-date%3A2026-11-13%2Ctype%3Ajournal-article&rows=30"
+      ],
+      "firstSeenDate": "2026-11-13",
+      "topic": "sense",
+      "summary": "Diffusion crystallization produces two zinc coordination frameworks with distinct channel architectures. One framework supports extraction of plastic additives and selective aqueous luminescence quenching by dichromate and permanganate, linking pore structure with adsorption and chemical detection.",
+      "whyRelevant": "Editorial assessment: Provides a comparison of recognition, pore accessibility, and optical sensing in frameworks without implying demonstrated quantum sensing.",
+      "relatedPapers": [
+        {
+          "id": "sunlab-record-8",
+          "reason": "Relates framework-defined analyte environments to sensing selectivity through a complementary optical approach."
+        }
+      ],
+      "earlierDiscovery": false
+    },
+    {
+      "id": "doi:10.1021/acsnano.6c12371",
+      "doi": "10.1021/acsnano.6c12371",
+      "title": "Switching of Exciton-Polaritons in Covalent Organic Framework-Based Optical Resonators through Interaction with the Molecular Environment",
+      "authors": "Beatriz de Sola-Báez, Tigmansu Pal, Diego M. Juela, Laura Caliò, Mauricio E. Calvo, Juan F. Galisteo-López, Jesús Hernández-Saz, Miriam Herrera, Bettina V. Lotsch, Hernán Míguez",
+      "journal": "ACS Nano",
+      "publicationDate": "2026-11-12",
+      "dateBasis": "Crossref published-online",
+      "sourceUrl": "https://doi.org/10.1021/acsnano.6c12371",
+      "evidenceUrl": "https://api.crossref.org/works/10.1021%2Facsnano.6c12371",
+      "metadataSource": "Crossref",
+      "status": "Published",
+      "aliases": [],
+      "abstractComplete": true,
+      "readingBasis": "Publisher abstract via Crossref",
+      "discoveredVia": [
+        "https://api.crossref.org/works?query=covalent+organic+framework+radical+synthesis&filter=from-pub-date%3A2026-11-07%2Cuntil-pub-date%3A2026-11-13%2Ctype%3Ajournal-article&rows=30"
+      ],
+      "firstSeenDate": "2026-11-13",
+      "topic": "matter",
+      "summary": "COF nanoplate films integrated into optical cavities exhibit exciton-polariton formation. Water-vapor adsorption changes optical absorption and reversibly switches the resonators between strong and weak coupling, demonstrating a porous-material route to guest-responsive photonic devices.",
+      "whyRelevant": "Editorial assessment: Connects molecular guests, framework optical properties, and device operation, offering a useful comparison for optically active molecular materials.",
+      "relatedPapers": [
+        {
+          "id": "lab-11",
+          "reason": "Both motivate optical functionality in framework-based quantum-material platforms, with distinct physical mechanisms."
+        }
+      ],
+      "earlierDiscovery": false
+    },
+    {
+      "id": "doi:10.1038/s43246-026-01396-3",
+      "doi": "10.1038/s43246-026-01396-3",
+      "title": "Ionic-liquid-assisted room-temperature dry etching of metal–organic frameworks",
+      "authors": "Yumeng Zheng, Momoka Muraoka, Koki Egawa, Kentaro Kinoshita",
+      "journal": "Communications Materials",
+      "publicationDate": "2026-11-10",
+      "dateBasis": "Crossref published-online",
+      "sourceUrl": "https://doi.org/10.1038/s43246-026-01396-3",
+      "evidenceUrl": "https://api.crossref.org/works/10.1038%2Fs43246-026-01396-3",
+      "metadataSource": "Crossref",
+      "status": "Published",
+      "aliases": [],
+      "abstractComplete": true,
+      "readingBasis": "Publisher abstract via Crossref",
+      "discoveredVia": [
+        "https://api.crossref.org/works?query=metal+organic+framework+crystal+growth+stacking&filter=from-pub-date%3A2026-11-07%2Cuntil-pub-date%3A2026-11-13%2Ctype%3Ajournal-article&rows=30"
+      ],
+      "firstSeenDate": "2026-11-13",
+      "topic": "matter",
+      "summary": "Ionic-liquid infiltration stabilizes beam-sensitive MOFs during room-temperature ion-beam processing. The study demonstrates fine patterning below 100 nm and examines how ionic-liquid choice affects damage, with possible mechanisms involving copper reduction and cleavage of metal-oxygen bonds.",
+      "whyRelevant": "Editorial assessment: Directly informs fabrication strategies for fragile MOF devices and the need to separate processing-induced damage from intrinsic material behavior.",
+      "relatedPapers": [
+        {
+          "id": "lab-12",
+          "reason": "Both address processing constraints and device fabrication in sensitive metal-organic frameworks."
+        }
+      ],
+      "earlierDiscovery": false
+    },
+    {
+      "id": "arxiv:2602.06421",
+      "arxivId": "2602.06421",
+      "doi": "",
+      "title": "Coherent Spin-Photon Interface of Single PL6 Oxygen Vacancy Centers in 4H-SiC",
+      "authors": "Zhen-Xuan He, Gergő Thiering, Xiangru Han, Rui-Jian Liang, Ji-Yang Zhou, Shuo Ren, Wu-Xi Lin, Zhi-He Hao, Qi-Cheng Hu, Jun-Feng Wang, Adam Gali, Jin-Shi Xu, Chuan-Feng Li, Guang-Can Guo",
+      "journal": "arXiv",
+      "publicationDate": "2026-02-06",
+      "dateBasis": "arXiv initial submission (UTC)",
+      "sourceUrl": "https://arxiv.org/abs/2602.06421",
+      "evidenceUrl": "https://arxiv.org/abs/2602.06421",
+      "abstractComplete": true,
+      "readingBasis": "arXiv abstract",
+      "metadataSource": "arXiv API",
+      "status": "Preprint",
+      "aliases": [],
+      "discoveredVia": [
+        "https://export.arxiv.org/api/query?id_list=2609.24295%2C2602.06421%2C2610.29279%2C2611.13799%2C2507.10661&max_results=8"
+      ],
+      "announceType": "replace",
+      "firstSeenDate": "2026-11-12",
+      "submissionTimestamp": "2026-02-06T06:34:03Z",
+      "categories": [
+        "quant-ph"
+      ],
+      "journalReference": "",
+      "topic": "matter",
+      "summary": "Spectroscopy and first-principles calculations examine single PL6 oxygen-vacancy centers in silicon carbide. Oxygen-modified excited states produce spin-selective intersystem crossing; resonant measurements demonstrate initialization, coherent optical and spin control, and millisecond coherence.",
+      "whyRelevant": "Editorial assessment: Offers a solid-state comparison for linking electronic structure, optical readout, and spin coherence when designing molecular spin-photon interfaces.",
+      "relatedPapers": [
+        {
+          "id": "lab-11",
+          "reason": "Both concern optically addressable spin platforms relevant to quantum-memory interfaces."
+        }
+      ],
+      "earlierDiscovery": false
+    },
+    {
+      "id": "doi:10.1021/acs.inorgchem.6c04711",
+      "doi": "10.1021/acs.inorgchem.6c04711",
+      "title": "Stimuli-Responsive Viologen-Based Coordination Supramolecular Isomers Modulated by π-Stacking Interactions",
+      "authors": "Xu-Dong Yang, Jing Zhang, Zhonghang Chen, Shi-Li Li, Xian-Ming Zhang",
+      "journal": "Inorganic Chemistry",
+      "publicationDate": "2026-11-12",
+      "dateBasis": "Crossref published-online",
+      "sourceUrl": "https://doi.org/10.1021/acs.inorgchem.6c04711",
+      "evidenceUrl": "https://api.crossref.org/works/10.1021%2Facs.inorgchem.6c04711",
+      "metadataSource": "Crossref",
+      "status": "Published",
+      "aliases": [],
+      "abstractComplete": true,
+      "readingBasis": "Publisher abstract via Crossref",
+      "discoveredVia": [
+        "https://api.crossref.org/journals/0020-1669/works?filter=from-pub-date%3A2026-11-07%2Cuntil-pub-date%3A2026-11-13%2Ctype%3Ajournal-article&rows=1000&cursor=%2A"
+      ],
+      "archiveJournal": "Inorganic Chemistry",
+      "firstSeenDate": "2026-11-13",
+      "topic": "chem",
+      "summary": "Two viologen-based copper coordination isomers exhibit different packing arrangements despite shared composition. Crystallography links a pi-stacked framework and a denser chain architecture to contrasting photochromic, thermochromic, and photothermal responses, emphasizing intermolecular interactions as a design variable.",
+      "whyRelevant": "Editorial assessment: Provides a concrete structure-property comparison for controlling packing and stimulus response in molecular framework materials.",
+      "relatedPapers": [
+        {
+          "id": "sunlab-record-13",
+          "reason": "Both examine how molecular interactions and packing arrangements influence material properties."
+        }
+      ],
+      "earlierDiscovery": false
+    },
+    {
+      "id": "doi:10.1002/poc.70121",
+      "doi": "10.1002/poc.70121",
+      "title": "Mechanochemical Synthesis and Co‐Former–Controlled Assembly of Azobenzene Polycarboxylate Organic Salts: From Framework Node to Passive Guest in HOF‐Like Architectures",
+      "authors": "Ashutosh Shrivastava, Jyotishka Nath, Madison Rader, Mihaela C. Stefan, Michael C. Biewer",
+      "journal": "Journal of Physical Organic Chemistry",
+      "publicationDate": "2026-11-08",
+      "dateBasis": "Crossref published-online",
+      "sourceUrl": "https://doi.org/10.1002/poc.70121",
+      "evidenceUrl": "https://api.crossref.org/works/10.1002%2Fpoc.70121",
+      "metadataSource": "Crossref",
+      "status": "Published",
+      "aliases": [],
+      "abstractComplete": true,
+      "readingBasis": "Publisher abstract via Crossref",
+      "discoveredVia": [
+        "https://api.crossref.org/works?query=covalent+organic+framework+radical+synthesis&filter=from-pub-date%3A2026-11-07%2Cuntil-pub-date%3A2026-11-13%2Ctype%3Ajournal-article&rows=30"
+      ],
+      "firstSeenDate": "2026-11-13",
+      "topic": "chem",
+      "summary": "Mechanochemical grinding followed by recrystallization produces two azobenzene-based organic salts. Changing an imidazole co-former to its methylated analogue switches its structural role from network node to pore guest, yielding different hydrogen-bonded architectures verified by single-crystal diffraction.",
+      "whyRelevant": "Editorial assessment: Illustrates how small chemical changes redirect framework assembly; these are hydrogen-bonded organic salts rather than demonstrated porous quantum devices.",
+      "relatedPapers": [
+        {
+          "id": "sunlab-record-11",
+          "reason": "Offers a complementary synthesis example connecting molecular chemistry with crystalline assembly."
+        }
+      ],
+      "earlierDiscovery": false
+    },
+    {
+      "id": "doi:10.1021/acs.langmuir.6c03586",
+      "doi": "10.1021/acs.langmuir.6c03586",
+      "title": "Continuous Increase in the Framework Flexibility of ZIF-90 with Crystal-Size Reduction to the Nanoscale: Evidence for Missing Metal Nodes Using Single-Crystal Infrared Spectroscopy",
+      "publicationDate": "2026-09-10",
+      "dateBasis": "Crossref published-online",
+      "sourceUrl": "https://doi.org/10.1021/acs.langmuir.6c03586",
+      "metadataSource": "Crossref",
+      "status": "Published",
+      "aliases": [],
+      "firstSeenDate": "2026-11-04",
+      "authors": "Akalanka B. Ekanayake, Collin S. Hill, Thumini R. Dias, Leonard R. MacGillivray, Alexei V. Tivanski",
+      "journal": "Langmuir",
+      "evidenceUrl": "https://api.crossref.org/works/10.1021%2Facs.langmuir.6c03586",
+      "abstractComplete": true,
+      "readingBasis": "Publisher abstract via Crossref",
+      "discoveredVia": [
+        "https://api.crossref.org/works/10.1021%2Facs.langmuir.6c03586"
+      ],
+      "topic": "chem",
+      "summary": "Single-crystal mechanical and spectroscopic measurements reveal increasing flexibility as ZIF-90 crystals shrink. The size dependence correlates with missing-metal-node defects, linking nanoscale crystal dimensions, defect populations, and elastic behavior through a measured power-law relationship.",
+      "whyRelevant": "Editorial assessment: Relevant to separating crystal-size and defect effects when comparing framework synthesis batches; retained as an older, previously unpushed discovery.",
+      "relatedPapers": [
+        {
+          "id": "sunlab-record-11",
+          "reason": "Both motivate careful control and characterization of framework crystal size and quality."
+        }
+      ],
+      "earlierDiscovery": true
+    }
+  ],
+  "sources": [
+    {
+      "source": "Nature",
+      "publisher": "Nature",
+      "kind": "official-feed",
+      "url": "https://www.nature.com/nature.rss",
+      "status": "ok",
+      "records": 75,
+      "oldestRecord": "2026-11-09",
+      "newestRecord": "2026-11-12",
+      "coverage": "rolling feed; not a complete date-range archive"
+    },
+    {
+      "source": "Nature Materials",
+      "publisher": "Nature",
+      "kind": "official-feed",
+      "url": "https://www.nature.com/nmat.rss",
+      "status": "ok",
+      "records": 8,
+      "oldestRecord": "2026-11-06",
+      "newestRecord": "2026-11-12",
+      "coverage": "rolling feed; not a complete date-range archive"
+    },
+    {
+      "source": "Nature Physics",
+      "publisher": "Nature",
+      "kind": "official-feed",
+      "url": "https://www.nature.com/nphys.rss",
+      "status": "ok",
+      "records": 8,
+      "oldestRecord": "2026-11-06",
+      "newestRecord": "2026-11-12",
+      "coverage": "rolling feed; not a complete date-range archive"
+    },
+    {
+      "source": "Nature Nanotechnology",
+      "publisher": "Nature",
+      "kind": "official-feed",
+      "url": "https://www.nature.com/nnano.rss",
+      "status": "ok",
+      "records": 8,
+      "oldestRecord": "2026-10-23",
+      "newestRecord": "2026-11-11",
+      "coverage": "rolling feed; not a complete date-range archive"
+    },
+    {
+      "source": "Nature Chemistry",
+      "publisher": "Nature",
+      "kind": "official-feed",
+      "url": "https://www.nature.com/nchem.rss",
+      "status": "ok",
+      "records": 8,
+      "oldestRecord": "2026-11-05",
+      "newestRecord": "2026-11-12",
+      "coverage": "rolling feed; not a complete date-range archive"
+    },
+    {
+      "source": "Nature Communications",
+      "publisher": "Nature",
+      "kind": "official-feed",
+      "url": "https://www.nature.com/ncomms.rss",
+      "status": "ok",
+      "records": 8,
+      "oldestRecord": "2026-11-12",
+      "newestRecord": "2026-11-12",
+      "coverage": "rolling feed; not a complete date-range archive"
+    },
+    {
+      "source": "Journal of the American Chemical Society",
+      "publisher": "ACS",
+      "kind": "official-feed",
+      "url": "https://pubs.acs.org/rss/jacsat/asap.xml",
+      "status": "ok",
+      "records": 16,
+      "oldestRecord": "2026-11-11",
+      "newestRecord": "2026-11-12",
+      "coverage": "rolling feed; not a complete date-range archive"
+    },
+    {
+      "source": "npj Quantum Information",
+      "publisher": "Nature",
+      "kind": "official-feed",
+      "url": "https://www.nature.com/npjqi.rss",
+      "status": "ok",
+      "records": 8,
+      "oldestRecord": "2026-10-30",
+      "newestRecord": "2026-11-12",
+      "coverage": "rolling feed; not a complete date-range archive"
+    },
+    {
+      "source": "Science",
+      "publisher": "Science",
+      "kind": "official-feed",
+      "url": "https://www.science.org/action/showFeed?type=etoc&feed=rss&jc=science",
+      "status": "ok",
+      "records": 44,
+      "oldestRecord": "2026-09-24",
+      "newestRecord": "2026-11-12",
+      "coverage": "rolling feed; not a complete date-range archive"
+    },
+    {
+      "source": "Science Advances",
+      "publisher": "Science",
+      "kind": "official-feed",
+      "url": "https://www.science.org/action/showFeed?type=etoc&feed=rss&jc=sciadv",
+      "status": "ok",
+      "records": 41,
+      "oldestRecord": "2026-11-11",
+      "newestRecord": "2026-11-11",
+      "coverage": "rolling feed; not a complete date-range archive"
+    },
+    {
+      "source": "Nano Letters",
+      "publisher": "ACS",
+      "kind": "official-feed",
+      "url": "https://pubs.acs.org/rss/nalefd/asap.xml",
+      "status": "ok",
+      "records": 7,
+      "oldestRecord": "2026-11-11",
+      "newestRecord": "2026-11-12",
+      "coverage": "rolling feed; not a complete date-range archive"
+    },
+    {
+      "source": "ACS Central Science",
+      "publisher": "ACS",
+      "kind": "official-feed",
+      "url": "https://pubs.acs.org/rss/acscii/asap.xml",
+      "status": "ok",
+      "records": 3,
+      "oldestRecord": "2026-11-06",
+      "newestRecord": "2026-11-09",
+      "coverage": "rolling feed; not a complete date-range archive"
+    },
+    {
+      "source": "The Journal of Physical Chemistry Letters",
+      "publisher": "ACS",
+      "kind": "official-feed",
+      "url": "https://pubs.acs.org/rss/jpclcd/asap.xml",
+      "status": "ok",
+      "records": 5,
+      "oldestRecord": "2026-11-11",
+      "newestRecord": "2026-11-11",
+      "coverage": "rolling feed; not a complete date-range archive"
+    },
+    {
+      "source": "Inorganic Chemistry",
+      "publisher": "ACS",
+      "kind": "official-feed",
+      "url": "https://pubs.acs.org/rss/inocaj/asap.xml",
+      "status": "ok",
+      "records": 12,
+      "oldestRecord": "2026-11-11",
+      "newestRecord": "2026-11-11",
+      "coverage": "rolling feed; not a complete date-range archive"
+    },
+    {
+      "source": "Journal of Chemical Theory and Computation",
+      "publisher": "ACS",
+      "kind": "official-feed",
+      "url": "https://pubs.acs.org/rss/jctcce/asap.xml",
+      "status": "ok",
+      "records": 7,
+      "oldestRecord": "2026-11-11",
+      "newestRecord": "2026-11-12",
+      "coverage": "rolling feed; not a complete date-range archive"
+    },
+    {
+      "source": "PRX Quantum",
+      "publisher": "APS",
+      "kind": "official-feed",
+      "url": "https://feeds.aps.org/rss/recent/prxquantum.xml",
+      "status": "ok",
+      "records": 100,
+      "oldestRecord": "2026-07-01",
+      "newestRecord": "2026-11-10",
+      "coverage": "rolling feed; not a complete date-range archive",
+      "priorAttempt": {
+        "source": "PRX Quantum",
+        "publisher": "APS",
+        "kind": "official-feed",
+        "url": "https://feeds.aps.org/rss/recent/prxquantum.xml",
+        "status": "failed",
+        "error": "<urlopen error [Errno 8] nodename nor servname provided, or not known>"
+      },
+      "retryRecovered": true
+    },
+    {
+      "source": "Physical Review B",
+      "publisher": "APS",
+      "kind": "official-feed",
+      "url": "https://feeds.aps.org/rss/recent/prb.xml",
+      "status": "ok",
+      "records": 100,
+      "oldestRecord": "2026-11-04",
+      "newestRecord": "2026-11-10",
+      "coverage": "rolling feed; not a complete date-range archive"
+    },
+    {
+      "source": "Physical Review Applied",
+      "publisher": "APS",
+      "kind": "official-feed",
+      "url": "https://feeds.aps.org/rss/recent/prapplied.xml",
+      "status": "ok",
+      "records": 100,
+      "oldestRecord": "2026-10-13",
+      "newestRecord": "2026-11-10",
+      "coverage": "rolling feed; not a complete date-range archive"
+    },
+    {
+      "source": "Physical Review A",
+      "publisher": "APS",
+      "kind": "official-feed",
+      "url": "https://feeds.aps.org/rss/recent/pra.xml",
+      "status": "ok",
+      "records": 100,
+      "oldestRecord": "2026-10-29",
+      "newestRecord": "2026-11-10",
+      "coverage": "rolling feed; not a complete date-range archive",
+      "priorAttempt": {
+        "source": "Physical Review A",
+        "publisher": "APS",
+        "kind": "official-feed",
+        "url": "https://feeds.aps.org/rss/recent/pra.xml",
+        "status": "failed",
+        "error": "<urlopen error [Errno 8] nodename nor servname provided, or not known>"
+      },
+      "retryRecovered": true
+    },
+    {
+      "source": "Physical Review Materials",
+      "publisher": "APS",
+      "kind": "official-feed",
+      "url": "https://feeds.aps.org/rss/recent/prmaterials.xml",
+      "status": "ok",
+      "records": 100,
+      "oldestRecord": "2026-10-05",
+      "newestRecord": "2026-11-09",
+      "coverage": "rolling feed; not a complete date-range archive"
+    },
+    {
+      "source": "Physical Review X",
+      "publisher": "APS",
+      "kind": "official-feed",
+      "url": "https://feeds.aps.org/rss/recent/prx.xml",
+      "status": "ok",
+      "records": 100,
+      "oldestRecord": "2026-07-28",
+      "newestRecord": "2026-11-10",
+      "coverage": "rolling feed; not a complete date-range archive",
+      "priorAttempt": {
+        "source": "Physical Review X",
+        "publisher": "APS",
+        "kind": "official-feed",
+        "url": "https://feeds.aps.org/rss/recent/prx.xml",
+        "status": "failed",
+        "error": "<urlopen error [Errno 8] nodename nor servname provided, or not known>"
+      },
+      "retryRecovered": true
+    },
+    {
+      "source": "arXiv quant-ph",
+      "publisher": "arXiv",
+      "kind": "official-feed",
+      "url": "https://rss.arxiv.org/rss/quant-ph",
+      "status": "ok",
+      "records": 0,
+      "oldestRecord": null,
+      "newestRecord": null,
+      "coverage": "rolling feed; not a complete date-range archive"
+    },
+    {
+      "source": "Physical Review Research",
+      "publisher": "APS",
+      "kind": "official-feed",
+      "url": "https://feeds.aps.org/rss/recent/prresearch.xml",
+      "status": "ok",
+      "records": 100,
+      "oldestRecord": "2026-10-19",
+      "newestRecord": "2026-11-12",
+      "coverage": "rolling feed; not a complete date-range archive"
+    },
+    {
+      "source": "arXiv cond-mat.mtrl-sci",
+      "publisher": "arXiv",
+      "kind": "official-feed",
+      "url": "https://rss.arxiv.org/rss/cond-mat.mtrl-sci",
+      "status": "ok",
+      "records": 0,
+      "oldestRecord": null,
+      "newestRecord": null,
+      "coverage": "rolling feed; not a complete date-range archive"
+    },
+    {
+      "source": "arXiv cond-mat.str-el",
+      "publisher": "arXiv",
+      "kind": "official-feed",
+      "url": "https://rss.arxiv.org/rss/cond-mat.str-el",
+      "status": "ok",
+      "records": 0,
+      "oldestRecord": null,
+      "newestRecord": null,
+      "coverage": "rolling feed; not a complete date-range archive"
+    },
+    {
+      "source": "arXiv cond-mat.mes-hall",
+      "publisher": "arXiv",
+      "kind": "official-feed",
+      "url": "https://rss.arxiv.org/rss/cond-mat.mes-hall",
+      "status": "ok",
+      "records": 0,
+      "oldestRecord": null,
+      "newestRecord": null,
+      "coverage": "rolling feed; not a complete date-range archive"
+    },
+    {
+      "source": "Physical Review Letters",
+      "publisher": "APS",
+      "kind": "official-feed",
+      "url": "https://feeds.aps.org/rss/recent/prl.xml",
+      "status": "ok",
+      "records": 100,
+      "oldestRecord": "2026-10-28",
+      "newestRecord": "2026-11-12",
+      "coverage": "rolling feed; not a complete date-range archive",
+      "priorAttempt": {
+        "source": "Physical Review Letters",
+        "publisher": "APS",
+        "kind": "official-feed",
+        "url": "https://feeds.aps.org/rss/recent/prl.xml",
+        "status": "failed",
+        "error": "<urlopen error [Errno 8] nodename nor servname provided, or not known>"
+      },
+      "retryRecovered": true
+    },
+    {
+      "source": "arXiv",
+      "kind": "dated-api",
+      "url": "https://export.arxiv.org/api/query?search_query=%28cat%3Aquant-ph+OR+cat%3Acond-mat.mtrl-sci+OR+cat%3Acond-mat.mes-hall+OR+cat%3Acond-mat.str-el%29+AND+submittedDate%3A%5B202611070000+TO+202611132359%5D&sortBy=submittedDate&sortOrder=descending&start=0&max_results=200",
+      "status": "ok",
+      "records": 200,
+      "total": 344,
+      "start": 0,
+      "requestedFrom": "2026-11-07",
+      "requestedTo": "2026-11-13",
+      "rangeComplete": false
+    },
+    {
+      "source": "arXiv",
+      "kind": "dated-api",
+      "url": "https://export.arxiv.org/api/query?search_query=%28cat%3Aquant-ph+OR+cat%3Acond-mat.mtrl-sci+OR+cat%3Acond-mat.mes-hall+OR+cat%3Acond-mat.str-el%29+AND+submittedDate%3A%5B202611070000+TO+202611132359%5D&sortBy=submittedDate&sortOrder=descending&start=200&max_results=200",
+      "status": "ok",
+      "records": 144,
+      "total": 344,
+      "start": 200,
+      "requestedFrom": "2026-11-07",
+      "requestedTo": "2026-11-13",
+      "rangeComplete": true
+    },
+    {
+      "source": "Nature Materials",
+      "publisher": "Nature",
+      "kind": "journal-date-metadata",
+      "provider": "Crossref",
+      "url": "https://api.crossref.org/journals/1476-1122/works?filter=from-pub-date%3A2026-11-07%2Cuntil-pub-date%3A2026-11-13%2Ctype%3Ajournal-article&rows=1000&cursor=%2A",
+      "status": "ok",
+      "records": 4,
+      "total": 4,
+      "rangeComplete": true,
+      "requestedFrom": "2026-11-07",
+      "requestedTo": "2026-11-13"
+    },
+    {
+      "source": "Nature",
+      "publisher": "Nature",
+      "kind": "journal-date-metadata",
+      "provider": "Crossref",
+      "url": "https://api.crossref.org/journals/0028-0836/works?filter=from-pub-date%3A2026-11-07%2Cuntil-pub-date%3A2026-11-13%2Ctype%3Ajournal-article&rows=1000&cursor=%2A",
+      "status": "ok",
+      "records": 83,
+      "total": 83,
+      "rangeComplete": true,
+      "requestedFrom": "2026-11-07",
+      "requestedTo": "2026-11-13"
+    },
+    {
+      "source": "Nature Physics",
+      "publisher": "Nature",
+      "kind": "journal-date-metadata",
+      "provider": "Crossref",
+      "url": "https://api.crossref.org/journals/1745-2473/works?filter=from-pub-date%3A2026-11-07%2Cuntil-pub-date%3A2026-11-13%2Ctype%3Ajournal-article&rows=1000&cursor=%2A",
+      "status": "ok",
+      "records": 4,
+      "total": 4,
+      "rangeComplete": true,
+      "requestedFrom": "2026-11-07",
+      "requestedTo": "2026-11-13"
+    },
+    {
+      "source": "Nature Chemistry",
+      "publisher": "Nature",
+      "kind": "journal-date-metadata",
+      "provider": "Crossref",
+      "url": "https://api.crossref.org/journals/1755-4330/works?filter=from-pub-date%3A2026-11-07%2Cuntil-pub-date%3A2026-11-13%2Ctype%3Ajournal-article&rows=1000&cursor=%2A",
+      "status": "ok",
+      "records": 6,
+      "total": 6,
+      "rangeComplete": true,
+      "requestedFrom": "2026-11-07",
+      "requestedTo": "2026-11-13"
+    },
+    {
+      "source": "Nature Communications",
+      "publisher": "Nature",
+      "kind": "journal-date-metadata",
+      "provider": "Crossref",
+      "url": "https://api.crossref.org/journals/2041-1723/works?filter=from-pub-date%3A2026-11-07%2Cuntil-pub-date%3A2026-11-13%2Ctype%3Ajournal-article&rows=1000&cursor=%2A",
+      "status": "ok",
+      "records": 89,
+      "total": 89,
+      "rangeComplete": true,
+      "requestedFrom": "2026-11-07",
+      "requestedTo": "2026-11-13"
+    },
+    {
+      "source": "Nature Nanotechnology",
+      "publisher": "Nature",
+      "kind": "journal-date-metadata",
+      "provider": "Crossref",
+      "url": "https://api.crossref.org/journals/1748-3387/works?filter=from-pub-date%3A2026-11-07%2Cuntil-pub-date%3A2026-11-13%2Ctype%3Ajournal-article&rows=1000&cursor=%2A",
+      "status": "ok",
+      "records": 1,
+      "total": 1,
+      "rangeComplete": true,
+      "requestedFrom": "2026-11-07",
+      "requestedTo": "2026-11-13"
+    },
+    {
+      "source": "Science",
+      "publisher": "Science",
+      "kind": "journal-date-metadata",
+      "provider": "Crossref",
+      "url": "https://api.crossref.org/journals/0036-8075/works?filter=from-pub-date%3A2026-11-07%2Cuntil-pub-date%3A2026-11-13%2Ctype%3Ajournal-article&rows=1000&cursor=%2A",
+      "status": "ok",
+      "records": 49,
+      "total": 49,
+      "rangeComplete": true,
+      "requestedFrom": "2026-11-07",
+      "requestedTo": "2026-11-13"
+    },
+    {
+      "source": "npj Quantum Information",
+      "publisher": "Nature",
+      "kind": "journal-date-metadata",
+      "provider": "Crossref",
+      "url": "https://api.crossref.org/journals/2056-6387/works?filter=from-pub-date%3A2026-11-07%2Cuntil-pub-date%3A2026-11-13%2Ctype%3Ajournal-article&rows=1000&cursor=%2A",
+      "status": "ok",
+      "records": 4,
+      "total": 4,
+      "rangeComplete": true,
+      "requestedFrom": "2026-11-07",
+      "requestedTo": "2026-11-13"
+    },
+    {
+      "source": "Science Advances",
+      "publisher": "Science",
+      "kind": "journal-date-metadata",
+      "provider": "Crossref",
+      "url": "https://api.crossref.org/journals/2375-2548/works?filter=from-pub-date%3A2026-11-07%2Cuntil-pub-date%3A2026-11-13%2Ctype%3Ajournal-article&rows=1000&cursor=%2A",
+      "status": "ok",
+      "records": 41,
+      "total": 41,
+      "rangeComplete": true,
+      "requestedFrom": "2026-11-07",
+      "requestedTo": "2026-11-13"
+    },
+    {
+      "source": "ACS Central Science",
+      "publisher": "ACS",
+      "kind": "journal-date-metadata",
+      "provider": "Crossref",
+      "url": "https://api.crossref.org/journals/2374-7943/works?filter=from-pub-date%3A2026-11-07%2Cuntil-pub-date%3A2026-11-13%2Ctype%3Ajournal-article&rows=1000&cursor=%2A",
+      "status": "ok",
+      "records": 2,
+      "total": 2,
+      "rangeComplete": true,
+      "requestedFrom": "2026-11-07",
+      "requestedTo": "2026-11-13"
+    },
+    {
+      "source": "Journal of the American Chemical Society",
+      "publisher": "ACS",
+      "kind": "journal-date-metadata",
+      "provider": "Crossref",
+      "url": "https://api.crossref.org/journals/0002-7863/works?filter=from-pub-date%3A2026-11-07%2Cuntil-pub-date%3A2026-11-13%2Ctype%3Ajournal-article&rows=1000&cursor=%2A",
+      "status": "ok",
+      "records": 87,
+      "total": 87,
+      "rangeComplete": true,
+      "requestedFrom": "2026-11-07",
+      "requestedTo": "2026-11-13"
+    },
+    {
+      "source": "Nano Letters",
+      "publisher": "ACS",
+      "kind": "journal-date-metadata",
+      "provider": "Crossref",
+      "url": "https://api.crossref.org/journals/1530-6984/works?filter=from-pub-date%3A2026-11-07%2Cuntil-pub-date%3A2026-11-13%2Ctype%3Ajournal-article&rows=1000&cursor=%2A",
+      "status": "ok",
+      "records": 38,
+      "total": 38,
+      "rangeComplete": true,
+      "requestedFrom": "2026-11-07",
+      "requestedTo": "2026-11-13"
+    },
+    {
+      "source": "The Journal of Physical Chemistry Letters",
+      "publisher": "ACS",
+      "kind": "journal-date-metadata",
+      "provider": "Crossref",
+      "url": "https://api.crossref.org/journals/1948-7185/works?filter=from-pub-date%3A2026-11-07%2Cuntil-pub-date%3A2026-11-13%2Ctype%3Ajournal-article&rows=1000&cursor=%2A",
+      "status": "ok",
+      "records": 29,
+      "total": 29,
+      "rangeComplete": true,
+      "requestedFrom": "2026-11-07",
+      "requestedTo": "2026-11-13"
+    },
+    {
+      "source": "Journal of Chemical Theory and Computation",
+      "publisher": "ACS",
+      "kind": "journal-date-metadata",
+      "provider": "Crossref",
+      "url": "https://api.crossref.org/journals/1549-9618/works?filter=from-pub-date%3A2026-11-07%2Cuntil-pub-date%3A2026-11-13%2Ctype%3Ajournal-article&rows=1000&cursor=%2A",
+      "status": "ok",
+      "records": 29,
+      "total": 29,
+      "rangeComplete": true,
+      "requestedFrom": "2026-11-07",
+      "requestedTo": "2026-11-13"
+    },
+    {
+      "source": "Inorganic Chemistry",
+      "publisher": "ACS",
+      "kind": "journal-date-metadata",
+      "provider": "Crossref",
+      "url": "https://api.crossref.org/journals/0020-1669/works?filter=from-pub-date%3A2026-11-07%2Cuntil-pub-date%3A2026-11-13%2Ctype%3Ajournal-article&rows=1000&cursor=%2A",
+      "status": "ok",
+      "records": 42,
+      "total": 42,
+      "rangeComplete": true,
+      "requestedFrom": "2026-11-07",
+      "requestedTo": "2026-11-13"
+    },
+    {
+      "source": "Physical Review Letters",
+      "publisher": "APS",
+      "kind": "journal-date-metadata",
+      "provider": "Crossref",
+      "url": "https://api.crossref.org/journals/0031-9007/works?filter=from-pub-date%3A2026-11-07%2Cuntil-pub-date%3A2026-11-13%2Ctype%3Ajournal-article&rows=1000&cursor=%2A",
+      "status": "ok",
+      "records": 68,
+      "total": 68,
+      "rangeComplete": true,
+      "requestedFrom": "2026-11-07",
+      "requestedTo": "2026-11-13"
+    },
+    {
+      "source": "PRX Quantum",
+      "publisher": "APS",
+      "kind": "journal-date-metadata",
+      "provider": "Crossref",
+      "url": "https://api.crossref.org/journals/2691-3399/works?filter=from-pub-date%3A2026-11-07%2Cuntil-pub-date%3A2026-11-13%2Ctype%3Ajournal-article&rows=1000&cursor=%2A",
+      "status": "ok",
+      "records": 7,
+      "total": 7,
+      "rangeComplete": true,
+      "requestedFrom": "2026-11-07",
+      "requestedTo": "2026-11-13"
+    },
+    {
+      "source": "Physical Review A",
+      "publisher": "APS",
+      "kind": "journal-date-metadata",
+      "provider": "Crossref",
+      "url": "https://api.crossref.org/journals/2469-9934/works?filter=from-pub-date%3A2026-11-07%2Cuntil-pub-date%3A2026-11-13%2Ctype%3Ajournal-article&rows=1000&cursor=%2A",
+      "status": "ok",
+      "records": 83,
+      "total": 83,
+      "rangeComplete": true,
+      "requestedFrom": "2026-11-07",
+      "requestedTo": "2026-11-13"
+    },
+    {
+      "source": "Physical Review B",
+      "publisher": "APS",
+      "kind": "journal-date-metadata",
+      "provider": "Crossref",
+      "url": "https://api.crossref.org/journals/2469-9969/works?filter=from-pub-date%3A2026-11-07%2Cuntil-pub-date%3A2026-11-13%2Ctype%3Ajournal-article&rows=1000&cursor=%2A",
+      "status": "ok",
+      "records": 171,
+      "total": 171,
+      "rangeComplete": true,
+      "requestedFrom": "2026-11-07",
+      "requestedTo": "2026-11-13"
+    },
+    {
+      "source": "Physical Review X",
+      "publisher": "APS",
+      "kind": "journal-date-metadata",
+      "provider": "Crossref",
+      "url": "https://api.crossref.org/journals/2160-3308/works?filter=from-pub-date%3A2026-11-07%2Cuntil-pub-date%3A2026-11-13%2Ctype%3Ajournal-article&rows=1000&cursor=%2A",
+      "status": "ok",
+      "records": 9,
+      "total": 9,
+      "rangeComplete": true,
+      "requestedFrom": "2026-11-07",
+      "requestedTo": "2026-11-13"
+    },
+    {
+      "source": "Physical Review Applied",
+      "publisher": "APS",
+      "kind": "journal-date-metadata",
+      "provider": "Crossref",
+      "url": "https://api.crossref.org/journals/2331-7019/works?filter=from-pub-date%3A2026-11-07%2Cuntil-pub-date%3A2026-11-13%2Ctype%3Ajournal-article&rows=1000&cursor=%2A",
+      "status": "ok",
+      "records": 33,
+      "total": 33,
+      "rangeComplete": true,
+      "requestedFrom": "2026-11-07",
+      "requestedTo": "2026-11-13"
+    },
+    {
+      "source": "Physical Review Research",
+      "publisher": "APS",
+      "kind": "journal-date-metadata",
+      "provider": "Crossref",
+      "url": "https://api.crossref.org/journals/2643-1564/works?filter=from-pub-date%3A2026-11-07%2Cuntil-pub-date%3A2026-11-13%2Ctype%3Ajournal-article&rows=1000&cursor=%2A",
+      "status": "ok",
+      "records": 30,
+      "total": 30,
+      "rangeComplete": true,
+      "requestedFrom": "2026-11-07",
+      "requestedTo": "2026-11-13"
+    },
+    {
+      "source": "Physical Review Materials",
+      "publisher": "APS",
+      "kind": "journal-date-metadata",
+      "provider": "Crossref",
+      "url": "https://api.crossref.org/journals/2475-9953/works?filter=from-pub-date%3A2026-11-07%2Cuntil-pub-date%3A2026-11-13%2Ctype%3Ajournal-article&rows=1000&cursor=%2A",
+      "status": "ok",
+      "records": 9,
+      "total": 9,
+      "rangeComplete": true,
+      "requestedFrom": "2026-11-07",
+      "requestedTo": "2026-11-13"
+    },
+    {
+      "source": "10.1098/rsos.260478",
+      "kind": "individual-metadata",
+      "url": "https://api.crossref.org/works/10.1098%2Frsos.260478",
+      "status": "ok",
+      "provider": "Crossref"
+    },
+    {
+      "source": "10.1016/j.jmr.2026.108165",
+      "kind": "individual-metadata",
+      "url": "https://api.crossref.org/works/10.1016%2Fj.jmr.2026.108165",
+      "status": "ok",
+      "provider": "Crossref"
+    },
+    {
+      "source": "10.1021/acs.langmuir.6c03586",
+      "kind": "individual-metadata",
+      "url": "https://api.crossref.org/works/10.1021%2Facs.langmuir.6c03586",
+      "status": "ok",
+      "provider": "Crossref"
+    },
+    {
+      "source": "10.1021/acs.inorgchem.6c04835",
+      "kind": "individual-metadata",
+      "url": "https://api.crossref.org/works/10.1021%2Facs.inorgchem.6c04835",
+      "status": "ok",
+      "provider": "Crossref"
+    },
+    {
+      "source": "10.1021/acs.jctc.6c01615",
+      "kind": "individual-metadata",
+      "url": "https://api.crossref.org/works/10.1021%2Facs.jctc.6c01615",
+      "status": "ok",
+      "provider": "Crossref"
+    },
+    {
+      "source": "arXiv",
+      "kind": "identifier-lookup",
+      "url": "https://export.arxiv.org/api/query?id_list=2609.24295%2C2602.06421%2C2610.29279%2C2611.13799%2C2507.10661&max_results=8",
+      "status": "ok",
+      "records": 5
+    },
+    {
+      "source": "molecular spin qubit coherence",
+      "kind": "supplementary-search",
+      "provider": "Crossref",
+      "url": "https://api.crossref.org/works?query=molecular+spin+qubit+coherence&filter=from-pub-date%3A2026-11-07%2Cuntil-pub-date%3A2026-11-13%2Ctype%3Ajournal-article&rows=30",
+      "status": "ok",
+      "priorAttempt": {
+        "status": "failed",
+        "error": "HTTP Error 429: Too Many Requests"
+      },
+      "records": 30,
+      "total": 1062,
+      "retryRecovered": true
+    },
+    {
+      "source": "metal organic framework crystal growth stacking",
+      "kind": "supplementary-search",
+      "provider": "Crossref",
+      "url": "https://api.crossref.org/works?query=metal+organic+framework+crystal+growth+stacking&filter=from-pub-date%3A2026-11-07%2Cuntil-pub-date%3A2026-11-13%2Ctype%3Ajournal-article&rows=30",
+      "status": "ok",
+      "records": 30,
+      "total": 2142,
+      "coverage": "relevance-ranked top 30; not exhaustive"
+    },
+    {
+      "source": "covalent organic framework radical synthesis",
+      "kind": "supplementary-search",
+      "provider": "Crossref",
+      "url": "https://api.crossref.org/works?query=covalent+organic+framework+radical+synthesis&filter=from-pub-date%3A2026-11-07%2Cuntil-pub-date%3A2026-11-13%2Ctype%3Ajournal-article&rows=30",
+      "status": "ok",
+      "records": 30,
+      "total": 1786,
+      "coverage": "relevance-ranked top 30; not exhaustive"
+    },
+    {
+      "source": "quantum sensing magnetic resonance",
+      "kind": "supplementary-search",
+      "provider": "Crossref",
+      "url": "https://api.crossref.org/works?query=quantum+sensing+magnetic+resonance&filter=from-pub-date%3A2026-11-07%2Cuntil-pub-date%3A2026-11-13%2Ctype%3Ajournal-article&rows=30",
+      "status": "ok",
+      "records": 30,
+      "total": 1000,
+      "coverage": "relevance-ranked top 30; not exhaustive"
+    },
+    {
+      "source": "arXiv title lookup",
+      "kind": "supplementary-search",
+      "url": "https://export.arxiv.org/api/query?search_query=ti%3A%22Quantum-calibrated+vector+magnetic-field+imaging%22&max_results=5",
+      "status": "ok",
+      "records": 0,
+      "total": 0
+    },
+    {
+      "source": "arXiv title lookup",
+      "kind": "supplementary-search",
+      "url": "https://export.arxiv.org/api/query?search_query=ti%3A%22Phonon-Bottlenecked+Spin+Relaxation%22&max_results=5",
+      "status": "ok",
+      "records": 1,
+      "total": 1
+    },
+    {
+      "source": "arXiv title lookup",
+      "kind": "supplementary-search",
+      "url": "https://export.arxiv.org/api/query?search_query=ti%3A%22Generating+spin-squeezed+states+in+high-spin+nuclear+systems%22&max_results=5",
+      "status": "ok",
+      "records": 0,
+      "total": 0
+    },
+    {
+      "source": "Library reference sunlab-record-8",
+      "kind": "reference-metadata",
+      "provider": "Crossref",
+      "url": "https://api.crossref.org/works/10.1021%2Fjacs.6c16503",
+      "status": "ok"
+    },
+    {
+      "source": "Library reference sunlab-record-11",
+      "kind": "reference-metadata",
+      "provider": "Crossref",
+      "url": "https://api.crossref.org/works/10.1021%2Fjacs.6c07951",
+      "status": "ok"
+    },
+    {
+      "source": "Library reference sunlab-record-13",
+      "kind": "reference-metadata",
+      "provider": "Crossref",
+      "url": "https://api.crossref.org/works/10.1038%2Fs41557-026-02180-z",
+      "status": "ok"
+    },
+    {
+      "source": "Library reference lab-12",
+      "kind": "reference-metadata",
+      "provider": "Crossref",
+      "url": "https://api.crossref.org/works/10.1021%2Facsmaterialslett.6c00096",
+      "status": "ok"
+    },
+    {
+      "source": "Library reference lab-11",
+      "kind": "reference-metadata",
+      "provider": "Crossref",
+      "url": "https://api.crossref.org/works/10.1021%2Facsmaterialslett.6c00095",
+      "status": "ok"
+    },
+    {
+      "source": "Library reference sunlab-record-31",
+      "kind": "reference-metadata",
+      "provider": "Crossref",
+      "url": "https://api.crossref.org/works/10.1063%2F5.0212870",
+      "status": "ok"
+    },
+    {
+      "source": "Library preprint references",
+      "kind": "reference-abstract",
+      "url": "https://export.arxiv.org/api/query?id_list=2511.12227%2C2608.06119%2C2506.04885&max_results=3",
+      "status": "ok"
+    }
+  ],
+  "selectionPolicy": "Prefer first discovered in the last 7 calendar days; if a topic has fewer than 3 papers, supplement from days 8–30 to reach 3. Maximum 5 per topic. Never repeat a work."
+}
