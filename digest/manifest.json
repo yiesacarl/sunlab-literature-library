@@ -1,8 +1,12 @@
 {
   "version": 1,
-  "latest": "2026-11-17",
+  "latest": "2026-11-18",
   "timezone": "Asia/Shanghai",
   "issues": [
+    {
+      "date": "2026-11-18",
+      "count": 14
+    },
     {
       "date": "2026-11-17",
       "count": 12
