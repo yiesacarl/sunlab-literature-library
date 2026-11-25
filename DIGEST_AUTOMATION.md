@@ -2,7 +2,7 @@
 
 Site: https://yiesacarl.github.io/sunlab-literature-library/#digest
 Repository: yiesacarl/sunlab-literature-library, main/root GitHub Pages.
-Daily trigger: 07:00 Asia/Shanghai in the user's Codex desktop chat. Local scheduled execution requires the computer on, online and app running. 07:00 starts research; publishing follows successful validation. No paid model API is configured. No email or group messages are sent.
+Daily trigger: 07:00 Asia/Shanghai in the hosted ChatGPT task "Sunlab Daily Digest | 07:00 cloud update". Research, review, Python validation, GitHub submission and live verification run in the cloud and do not require the owner's computer or desktop app. 07:00 starts research; publishing follows successful validation. No additional paid model API is configured. No email or group messages are sent. The former desktop heartbeat was paused after the independent cloud acceptance test on 2026-11-25.
 
 ## Editorial policy
 Five topics: spin, control, sense, matter, chem. Never include other.
@@ -43,3 +43,11 @@ Only approve a candidate after reading its actual abstract or accessible article
 On 2026-11-04 the user additionally authorized supplements to the seven existing historical issues from 2026-10-28 through 2026-11-03. scripts/supplement_digest.py handles this explicit one-off operation: existing cards remain unchanged, additions retain actual discovery dates and use publication-date eligibility, all eight existing issues and the original library are excluded, and each direction remains capped at five. Revision metadata records added IDs and the renewed source audit. This does not grant daily runs permission to rewrite historical issues. The 2026-11-04 live issue remains unchanged.
 
 The site intentionally does not display per-card discovery/collection dates or the first-live-issue tracking notice. Keep these removed while retaining discovery dates in the data for selection.
+
+
+## Cloud execution acceptance and checks
+The independent hosted test is recorded in `digest/cloud-checks/2026-11-25.json`. It ran discovery, read three original arXiv abstracts, passed 25 unit tests, exercised an isolated synthetic build, and published only a separate acceptance record. The record's GitHub Pages deployment succeeded; the existing 26 issues and the current 15-paper issue were preserved. These samples are not new recommendations. The first regular hosted schedule after migration is 2026-11-26 at 07:00 Asia/Shanghai.
+
+The test observed two HTTP 403 feed failures and three HTTP 429 Crossref query failures. Respect Retry-After and use bounded backoff for transient rate limits; retain real incomplete-coverage disclosures. Do not bypass access controls or assume cloud execution guarantees every source is available.
+
+The existing `digest.validate` does not itself reject every invalid related-paper ID. Before publication, independently check every `relatedPapers[].id` against the IDs in `bibliography.json` and fail on missing IDs. Passing the unit tests alone does not replace this check. Keep all raw abstracts, logs and credentials in the private cloud workspace, never in the public repository.
