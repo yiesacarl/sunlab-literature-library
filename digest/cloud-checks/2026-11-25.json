@@ -1,0 +1,638 @@
+{
+  "type": "cloud-migration-check",
+  "executedAt": "2026-11-25T11:51:39+08:00",
+  "timezone": "Asia/Shanghai",
+  "baseCommit": "66c3c32ff93ec2deaebbfd2f8ec5eb2fa4119475",
+  "actualExecutionEnvironment": {
+    "surface": "ChatGPT Work Mode web",
+    "runtime": "Isolated cloud Linux executor",
+    "python": "Python 3.12.14",
+    "personalComputerUsed": false,
+    "desktopCodexUsed": false,
+    "desktopLoginUsed": false,
+    "paidModelApiCalled": false,
+    "integrations": [
+      "Connected GitHub plugin",
+      "Web search",
+      "Direct public scholarly endpoints from cloud executor"
+    ]
+  },
+  "baseline": {
+    "latestIssue": "2026-11-25",
+    "latestIssuePaperCount": 15,
+    "historyIssueCount": 26,
+    "githubIssueSearchResults": 0
+  },
+  "discovery": {
+    "requestedFrom": "2026-11-19",
+    "requestedTo": "2026-11-25",
+    "lookbackDays": 7,
+    "candidateCount": 1312,
+    "rawRecordCount": 3053,
+    "officialFeeds": {
+      "configured": 27,
+      "statusCounts": {
+        "ok": 25,
+        "failed": 2
+      },
+      "entries": [
+        {
+          "source": "Nature",
+          "publisher": "Nature",
+          "status": "ok",
+          "records": 75,
+          "oldestRecord": "2026-11-18",
+          "newestRecord": "2026-11-24"
+        },
+        {
+          "source": "Nature Physics",
+          "publisher": "Nature",
+          "status": "ok",
+          "records": 8,
+          "oldestRecord": "2026-11-09",
+          "newestRecord": "2026-11-24"
+        },
+        {
+          "source": "Nature Materials",
+          "publisher": "Nature",
+          "status": "ok",
+          "records": 8,
+          "oldestRecord": "2026-11-19",
+          "newestRecord": "2026-11-24"
+        },
+        {
+          "source": "Nature Nanotechnology",
+          "publisher": "Nature",
+          "status": "ok",
+          "records": 8,
+          "oldestRecord": "2026-11-11",
+          "newestRecord": "2026-11-23"
+        },
+        {
+          "source": "Nature Communications",
+          "publisher": "Nature",
+          "status": "ok",
+          "records": 8,
+          "oldestRecord": "2026-11-24",
+          "newestRecord": "2026-11-25"
+        },
+        {
+          "source": "Science Advances",
+          "publisher": "Science",
+          "status": "failed",
+          "failureReason": "HTTP 403"
+        },
+        {
+          "source": "Science",
+          "publisher": "Science",
+          "status": "failed",
+          "failureReason": "HTTP 403"
+        },
+        {
+          "source": "Nature Chemistry",
+          "publisher": "Nature",
+          "status": "ok",
+          "records": 8,
+          "oldestRecord": "2026-11-16",
+          "newestRecord": "2026-11-24"
+        },
+        {
+          "source": "ACS Central Science",
+          "publisher": "ACS",
+          "status": "ok",
+          "records": 2,
+          "oldestRecord": "2026-11-19",
+          "newestRecord": "2026-11-23"
+        },
+        {
+          "source": "Journal of the American Chemical Society",
+          "publisher": "ACS",
+          "status": "ok",
+          "records": 15,
+          "oldestRecord": "2026-11-24",
+          "newestRecord": "2026-11-24"
+        },
+        {
+          "source": "The Journal of Physical Chemistry Letters",
+          "publisher": "ACS",
+          "status": "ok",
+          "records": 7,
+          "oldestRecord": "2026-11-21",
+          "newestRecord": "2026-11-23"
+        },
+        {
+          "source": "Journal of Chemical Theory and Computation",
+          "publisher": "ACS",
+          "status": "ok",
+          "records": 9,
+          "oldestRecord": "2026-11-23",
+          "newestRecord": "2026-11-24"
+        },
+        {
+          "source": "Nano Letters",
+          "publisher": "ACS",
+          "status": "ok",
+          "records": 14,
+          "oldestRecord": "2026-11-23",
+          "newestRecord": "2026-11-25"
+        },
+        {
+          "source": "npj Quantum Information",
+          "publisher": "Nature",
+          "status": "ok",
+          "records": 8,
+          "oldestRecord": "2026-11-17",
+          "newestRecord": "2026-11-24"
+        },
+        {
+          "source": "PRX Quantum",
+          "publisher": "APS",
+          "status": "ok",
+          "records": 100,
+          "oldestRecord": "2026-07-08",
+          "newestRecord": "2026-11-23"
+        },
+        {
+          "source": "Physical Review Letters",
+          "publisher": "APS",
+          "status": "ok",
+          "records": 100,
+          "oldestRecord": "2026-11-09",
+          "newestRecord": "2026-11-23"
+        },
+        {
+          "source": "Physical Review X",
+          "publisher": "APS",
+          "status": "ok",
+          "records": 100,
+          "oldestRecord": "2026-08-12",
+          "newestRecord": "2026-11-24"
+        },
+        {
+          "source": "Inorganic Chemistry",
+          "publisher": "ACS",
+          "status": "ok",
+          "records": 12,
+          "oldestRecord": "2026-11-24",
+          "newestRecord": "2026-11-25"
+        },
+        {
+          "source": "Physical Review A",
+          "publisher": "APS",
+          "status": "ok",
+          "records": 100,
+          "oldestRecord": "2026-11-10",
+          "newestRecord": "2026-11-23"
+        },
+        {
+          "source": "Physical Review Materials",
+          "publisher": "APS",
+          "status": "ok",
+          "records": 100,
+          "oldestRecord": "2026-10-13",
+          "newestRecord": "2026-11-23"
+        },
+        {
+          "source": "Physical Review Applied",
+          "publisher": "APS",
+          "status": "ok",
+          "records": 100,
+          "oldestRecord": "2026-10-23",
+          "newestRecord": "2026-11-23"
+        },
+        {
+          "source": "Physical Review B",
+          "publisher": "APS",
+          "status": "ok",
+          "records": 100,
+          "oldestRecord": "2026-11-18",
+          "newestRecord": "2026-11-24"
+        },
+        {
+          "source": "arXiv cond-mat.mtrl-sci",
+          "publisher": "arXiv",
+          "status": "ok",
+          "records": 105,
+          "oldestRecord": "2026-11-24",
+          "newestRecord": "2026-11-24"
+        },
+        {
+          "source": "arXiv quant-ph",
+          "publisher": "arXiv",
+          "status": "ok",
+          "records": 248,
+          "oldestRecord": "2026-11-24",
+          "newestRecord": "2026-11-24"
+        },
+        {
+          "source": "arXiv cond-mat.mes-hall",
+          "publisher": "arXiv",
+          "status": "ok",
+          "records": 51,
+          "oldestRecord": "2026-11-24",
+          "newestRecord": "2026-11-24"
+        },
+        {
+          "source": "Physical Review Research",
+          "publisher": "APS",
+          "status": "ok",
+          "records": 100,
+          "oldestRecord": "2026-10-30",
+          "newestRecord": "2026-11-24"
+        },
+        {
+          "source": "arXiv cond-mat.str-el",
+          "publisher": "arXiv",
+          "status": "ok",
+          "records": 63,
+          "oldestRecord": "2026-11-24",
+          "newestRecord": "2026-11-24"
+        }
+      ]
+    },
+    "arxiv": {
+      "pagesAttempted": 3,
+      "pagesSucceeded": 3,
+      "fetchedRecords": 596,
+      "reportedTotal": 596,
+      "complete": true,
+      "statusCounts": {
+        "ok": 3
+      },
+      "entries": [
+        {
+          "source": "arXiv",
+          "status": "ok",
+          "records": 200,
+          "total": 596,
+          "start": 0,
+          "rangeComplete": false,
+          "requestedFrom": "2026-11-19",
+          "requestedTo": "2026-11-25"
+        },
+        {
+          "source": "arXiv",
+          "status": "ok",
+          "records": 200,
+          "total": 596,
+          "start": 200,
+          "rangeComplete": false,
+          "requestedFrom": "2026-11-19",
+          "requestedTo": "2026-11-25"
+        },
+        {
+          "source": "arXiv",
+          "status": "ok",
+          "records": 196,
+          "total": 596,
+          "start": 400,
+          "rangeComplete": true,
+          "requestedFrom": "2026-11-19",
+          "requestedTo": "2026-11-25"
+        }
+      ]
+    },
+    "crossref": {
+      "configuredJournals": 23,
+      "completeJournals": 20,
+      "returnedRecordCount": 1008,
+      "statusCounts": {
+        "ok": 20,
+        "failed": 3
+      },
+      "entries": [
+        {
+          "source": "Nature Physics",
+          "publisher": "Nature",
+          "provider": "Crossref",
+          "status": "ok",
+          "records": 1,
+          "total": 1,
+          "rangeComplete": true,
+          "requestedFrom": "2026-11-19",
+          "requestedTo": "2026-11-25"
+        },
+        {
+          "source": "Nature",
+          "publisher": "Nature",
+          "provider": "Crossref",
+          "status": "ok",
+          "records": 63,
+          "total": 63,
+          "rangeComplete": true,
+          "requestedFrom": "2026-11-19",
+          "requestedTo": "2026-11-25"
+        },
+        {
+          "source": "Nature Materials",
+          "publisher": "Nature",
+          "provider": "Crossref",
+          "status": "ok",
+          "records": 8,
+          "total": 8,
+          "rangeComplete": true,
+          "requestedFrom": "2026-11-19",
+          "requestedTo": "2026-11-25"
+        },
+        {
+          "source": "Nature Nanotechnology",
+          "publisher": "Nature",
+          "provider": "Crossref",
+          "status": "ok",
+          "records": 4,
+          "total": 4,
+          "rangeComplete": true,
+          "requestedFrom": "2026-11-19",
+          "requestedTo": "2026-11-25"
+        },
+        {
+          "source": "Nature Chemistry",
+          "publisher": "Nature",
+          "provider": "Crossref",
+          "status": "ok",
+          "records": 7,
+          "total": 7,
+          "rangeComplete": true,
+          "requestedFrom": "2026-11-19",
+          "requestedTo": "2026-11-25"
+        },
+        {
+          "source": "Nature Communications",
+          "publisher": "Nature",
+          "provider": "Crossref",
+          "status": "ok",
+          "records": 168,
+          "total": 168,
+          "rangeComplete": true,
+          "requestedFrom": "2026-11-19",
+          "requestedTo": "2026-11-25"
+        },
+        {
+          "source": "npj Quantum Information",
+          "provider": "Crossref",
+          "status": "failed",
+          "failureReason": "HTTP 429"
+        },
+        {
+          "source": "Science",
+          "publisher": "Science",
+          "provider": "Crossref",
+          "status": "ok",
+          "records": 38,
+          "total": 38,
+          "rangeComplete": true,
+          "requestedFrom": "2026-11-19",
+          "requestedTo": "2026-11-25"
+        },
+        {
+          "source": "Science Advances",
+          "publisher": "Science",
+          "provider": "Crossref",
+          "status": "ok",
+          "records": 88,
+          "total": 88,
+          "rangeComplete": true,
+          "requestedFrom": "2026-11-19",
+          "requestedTo": "2026-11-25"
+        },
+        {
+          "source": "ACS Central Science",
+          "publisher": "ACS",
+          "provider": "Crossref",
+          "status": "ok",
+          "records": 2,
+          "total": 2,
+          "rangeComplete": true,
+          "requestedFrom": "2026-11-19",
+          "requestedTo": "2026-11-25"
+        },
+        {
+          "source": "Nano Letters",
+          "provider": "Crossref",
+          "status": "failed",
+          "failureReason": "HTTP 429"
+        },
+        {
+          "source": "Journal of the American Chemical Society",
+          "publisher": "ACS",
+          "provider": "Crossref",
+          "status": "ok",
+          "records": 77,
+          "total": 77,
+          "rangeComplete": true,
+          "requestedFrom": "2026-11-19",
+          "requestedTo": "2026-11-25"
+        },
+        {
+          "source": "The Journal of Physical Chemistry Letters",
+          "publisher": "ACS",
+          "provider": "Crossref",
+          "status": "ok",
+          "records": 23,
+          "total": 23,
+          "rangeComplete": true,
+          "requestedFrom": "2026-11-19",
+          "requestedTo": "2026-11-25"
+        },
+        {
+          "source": "Inorganic Chemistry",
+          "publisher": "ACS",
+          "provider": "Crossref",
+          "status": "ok",
+          "records": 50,
+          "total": 50,
+          "rangeComplete": true,
+          "requestedFrom": "2026-11-19",
+          "requestedTo": "2026-11-25"
+        },
+        {
+          "source": "Journal of Chemical Theory and Computation",
+          "publisher": "ACS",
+          "provider": "Crossref",
+          "status": "ok",
+          "records": 25,
+          "total": 25,
+          "rangeComplete": true,
+          "requestedFrom": "2026-11-19",
+          "requestedTo": "2026-11-25"
+        },
+        {
+          "source": "Physical Review Letters",
+          "publisher": "APS",
+          "provider": "Crossref",
+          "status": "ok",
+          "records": 89,
+          "total": 89,
+          "rangeComplete": true,
+          "requestedFrom": "2026-11-19",
+          "requestedTo": "2026-11-25"
+        },
+        {
+          "source": "Physical Review A",
+          "publisher": "APS",
+          "provider": "Crossref",
+          "status": "ok",
+          "records": 92,
+          "total": 92,
+          "rangeComplete": true,
+          "requestedFrom": "2026-11-19",
+          "requestedTo": "2026-11-25"
+        },
+        {
+          "source": "PRX Quantum",
+          "publisher": "APS",
+          "provider": "Crossref",
+          "status": "ok",
+          "records": 8,
+          "total": 8,
+          "rangeComplete": true,
+          "requestedFrom": "2026-11-19",
+          "requestedTo": "2026-11-25"
+        },
+        {
+          "source": "Physical Review B",
+          "publisher": "APS",
+          "provider": "Crossref",
+          "status": "ok",
+          "records": 183,
+          "total": 183,
+          "rangeComplete": true,
+          "requestedFrom": "2026-11-19",
+          "requestedTo": "2026-11-25"
+        },
+        {
+          "source": "Physical Review X",
+          "publisher": "APS",
+          "provider": "Crossref",
+          "status": "ok",
+          "records": 13,
+          "total": 13,
+          "rangeComplete": true,
+          "requestedFrom": "2026-11-19",
+          "requestedTo": "2026-11-25"
+        },
+        {
+          "source": "Physical Review Applied",
+          "provider": "Crossref",
+          "status": "failed",
+          "failureReason": "HTTP 429"
+        },
+        {
+          "source": "Physical Review Materials",
+          "publisher": "APS",
+          "provider": "Crossref",
+          "status": "ok",
+          "records": 6,
+          "total": 6,
+          "rangeComplete": true,
+          "requestedFrom": "2026-11-19",
+          "requestedTo": "2026-11-25"
+        },
+        {
+          "source": "Physical Review Research",
+          "publisher": "APS",
+          "provider": "Crossref",
+          "status": "ok",
+          "records": 63,
+          "total": 63,
+          "rangeComplete": true,
+          "requestedFrom": "2026-11-19",
+          "requestedTo": "2026-11-25"
+        }
+      ]
+    },
+    "coverageLimits": [
+      "Official feeds are rolling windows. Crossref supplements indexed journal publication-date metadata and does not guarantee complete publisher coverage or availability of abstracts."
+    ]
+  },
+  "tests": [
+    {
+      "command": "python3 scripts/digest.py discover --cache <temporary-cache>",
+      "exitCode": 0,
+      "result": "Executed with the actual Shanghai date and default seven-day window. See per-source outcomes."
+    },
+    {
+      "command": "python3 -m unittest discover -s scripts",
+      "exitCode": 0,
+      "result": "25 tests passed"
+    },
+    {
+      "command": "python3 scripts/digest.py build --date 2026-11-08 --cache <temporary-fixture-cache>",
+      "exitCode": 0,
+      "result": "Isolated synthetic fixture generated 7 records in 5 categories. All 26 copied historical issues stayed byte-identical."
+    },
+    {
+      "command": "python3 scripts/refresh_assets.py",
+      "exitCode": 0,
+      "result": "Asset versions updated in the isolated build copy"
+    },
+    {
+      "command": "PYTHONPATH=scripts python3 (isolated integration harness)",
+      "exitCode": 0,
+      "result": "Called digest.validate and checked required fields, five-topic whitelist, 6/7/29/30-day boundaries, future exclusion, alias deduplication, historical and bibliography exclusion, month date precision, and real bibliography IDs. The existing validator accepted a deliberately invalid related ID; an independent bibliography membership check rejected it."
+    },
+    {
+      "command": "Repeat the isolated build for the same date",
+      "result": "Rejected as expected: Issue already exists"
+    }
+  ],
+  "samples": [
+    {
+      "type": "migration-test-sample",
+      "isNewRecommendation": false,
+      "topic": "spin",
+      "id": "arxiv:2611.28958",
+      "title": "Systematically improvable semiclassical clustering for accurate and efficient quantum dynamics in large spin ensembles",
+      "publicationDate": "2026-11-21",
+      "summary": "The authors simulate how surrounding spins shorten qubit coherence by solving the dynamics of the sensor and its closest-coupled partners quantum mechanically. Increasing that cluster improves convergence, and the method reproduces exact benchmarks for a nitrogen-vacancy center and a molecular qubit at much lower computational cost.",
+      "readingBasis": "Complete author abstract retrieved directly from the arXiv abstract page in the cloud",
+      "sourceUrl": "https://arxiv.org/abs/2611.28958",
+      "evidenceUrl": "https://arxiv.org/abs/2611.28958",
+      "relatedPapers": [
+        {
+          "id": "lab-1",
+          "title": "Ultralong Room-Temperature Qubit Lifetimes of Covalent Organic Frameworks",
+          "reason": "The molecular-qubit coherence benchmark relates to the library paper on room-temperature qubit lifetimes in covalent organic frameworks."
+        }
+      ]
+    },
+    {
+      "type": "migration-test-sample",
+      "isNewRecommendation": false,
+      "topic": "control",
+      "id": "arxiv:2611.30931",
+      "title": "Mitigating drift in spin-qubit control with calibration-insensitive pulses",
+      "publicationDate": "2026-11-23",
+      "summary": "Experiments on a silicon quantum dot compare an adiabatic pulse that tolerates drive-power drift with a composite pulse that tolerates frequency offsets. Ten days of gate-set tomography without recalibration show that the adiabatic pulse maintains its rotation angle even through an abrupt resonance shift.",
+      "readingBasis": "Complete author abstract retrieved directly from the arXiv abstract page in the cloud",
+      "sourceUrl": "https://arxiv.org/abs/2611.30931",
+      "evidenceUrl": "https://arxiv.org/abs/2611.30931",
+      "relatedPapers": [
+        {
+          "id": "lab-2",
+          "title": "Scalable Quantum Error Mitigation for Dynamical Decoupling",
+          "reason": "Both papers address control errors during spin experiments. The library item focuses on mitigation for dynamical decoupling."
+        }
+      ]
+    },
+    {
+      "type": "migration-test-sample",
+      "isNewRecommendation": false,
+      "topic": "sense",
+      "id": "arxiv:2611.28801",
+      "title": "Quantum Metrology With Quantum Limit Cycles",
+      "publicationDate": "2026-11-21",
+      "summary": "A proposed collective-spin sensor uses nonlinear damping to sustain oscillations and accumulate signal. Simulations and phase-diffusion theory indicate precision approaching Heisenberg scaling with system size. Spin squeezing improves precision at short times, while diffusion determines the long-time scaling.",
+      "readingBasis": "Complete author abstract retrieved directly from the arXiv abstract page in the cloud",
+      "sourceUrl": "https://arxiv.org/abs/2611.28801",
+      "evidenceUrl": "https://arxiv.org/abs/2611.28801",
+      "relatedPapers": [
+        {
+          "id": "lab-3",
+          "title": "Hadamard Sensing Channel: Determinsitic Artifact Suppression for Quantum Sensors",
+          "reason": "The library paper provides a complementary approach to improving quantum sensing through artifact suppression."
+        }
+      ]
+    }
+  ]
+}
