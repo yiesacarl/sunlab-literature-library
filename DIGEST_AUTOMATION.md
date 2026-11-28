@@ -2,7 +2,7 @@
 
 Site: https://yiesacarl.github.io/sunlab-literature-library/#digest
 Repository: yiesacarl/sunlab-literature-library, main/root GitHub Pages.
-Daily trigger: 07:00 Asia/Shanghai in the hosted ChatGPT task "Sunlab Daily Digest | 07:00 cloud update". Research, review, Python validation, GitHub submission and live verification run in the cloud and do not require the owner's computer or desktop app. 07:00 starts research; publishing follows successful validation. No additional paid model API is configured. No email or group messages are sent. The former desktop heartbeat was paused after the independent cloud acceptance test on 2026-11-25.
+Daily trigger: 07:00 Asia/Shanghai in the hosted ChatGPT task "Sunlab Daily Digest | 07:00 cloud update". Research, review, Python validation, GitHub submission and live verification run in the cloud and do not require the owner's computer or desktop app. 07:00 starts research; publishing follows successful validation. No additional paid model API is configured. No email or group messages are sent. The former desktop heartbeat is paused. The November 25 acceptance published only a small receipt; it did not prove production-sized state upload. The first production run failed before committing. Cloud publication recovery is being tested on November 28; do not claim migration is complete until a real issue is deployed and verified.
 
 ## Editorial policy
 Five topics: spin, control, sense, matter, chem. Never include other.
@@ -18,14 +18,14 @@ Exclude existing library records by DOI/arXiv identity or exact normalized title
 5. Write `reviews.json` in the cache. Each review must reference a discovered id and include approved (boolean), one topic, score (editorial ranking, not a research-quality metric), an original concise English summary (usually 25–55 words), whyRelevant (explicitly editorial), readingBasis, and relatedPapers [{id,reason}] using actual existing library IDs. Set evidenceUrl if a publisher page was read instead of the Crossref-deposited abstract. Approve only records actually checked. For existing unreviewed candidates aged 7–29 days retrieve their evidence before approving. Do not fabricate results or quantitative claims. Remove/reject corrections, retractions, duplicates, generic unrelated quantum/medical/catalysis matches.
 6. Run `python3 -m unittest discover -s scripts -p "test_*.py"`, then `python3 scripts/digest.py build --date YYYY-MM-DD --cache <private-run-directory>` and `python3 scripts/refresh_assets.py`. Build validates windows, identifiers, required provenance, counts and prior recommendations. It refuses to replace an existing issue. If a candidate/metadata relationship needs correction, review before building. Leave historic content unchanged.
 7. Verify generated issue counts, dates, related IDs, links and browser rendering. All five sections remain visible even if one has zero papers. If some sources failed, retain the partial-coverage disclosure. Do not present old issues as fresh or a scheduler entry as proof of a successful run.
-8. Publish only digest/issues/YYYY-MM-DD.json, merged digest/manifest.json, digest/state.json, digest-data.js and asset-versioned index.html through the connected GitHub tool. Use the latest remote tree and expected-head check. Never force push, replace an entire repository from a stale local folder, alter the AI news repository, or upload private raw evidence/caches/credentials/local paths.
+8. Follow CLOUD_PUBLICATION.md. Publish only digest/issues/YYYY-MM-DD.json, merged digest/manifest.json, newly generated digest/state-deltas/YYYY-MM-DD* files and asset-versioned index.html through the connected GitHub tool. The base digest/state.json and the tiny digest-data.js loader stay unchanged. Use the latest remote tree and expected-head check. Never force push, replace an entire repository from a stale local folder, alter the AI news repository, or upload private raw evidence/caches/credentials/local paths.
 9. Check Pages deployment for the new commit, then fetch/open the actual public issue and verify the date/count. Report success only after deployment and live data match. On failure preserve the old site, keep resumable local progress, and report the actual failing stage. A completed run may have fewer than 15 papers by policy.
 
 ## Public files
-- digest/state.json: metadata, immutable first discovery dates and reviewed candidate summaries (no full abstracts).
+- digest/state.json: immutable base ledger; use scripts/state_store.py load() to apply all hashed incremental files under digest/state-deltas. Never treat the base alone as the current state.
 - digest/issues/YYYY-MM-DD.json: immutable daily issue and public source provenance.
 - digest/manifest.json: issue directory and latest issue.
-- digest-data.js: browser bundle rebuilt from the issue archive.
+- digest-data.js: small stable loader; fetches manifest and immutable issue JSON directly, without rebuilding a full archive bundle.
 - digest.js: compact UI, date/topic navigation, provenance and related-paper drawers.
 
 The Daily Digest does not automatically add items to Sunlab Papers, Earlier Work or Sharing Papers. Those collections retain their meaning and counts. All displayed summaries are AI-assisted; related links describe thematic connections, not necessarily citations.
@@ -50,4 +50,4 @@ The independent hosted test is recorded in `digest/cloud-checks/2026-11-25.json`
 
 The test observed two HTTP 403 feed failures and three HTTP 429 Crossref query failures. Respect Retry-After and use bounded backoff for transient rate limits; retain real incomplete-coverage disclosures. Do not bypass access controls or assume cloud execution guarantees every source is available.
 
-The existing `digest.validate` does not itself reject every invalid related-paper ID. Before publication, independently check every `relatedPapers[].id` against the IDs in `bibliography.json` and fail on missing IDs. Passing the unit tests alone does not replace this check. Keep all raw abstracts, logs and credentials in the private cloud workspace, never in the public repository.
+The November 28 repair adds related-paper ID membership validation directly to `digest.validate`. Before publication, independently check every `relatedPapers[].id` against the IDs in `bibliography.json` and fail on missing IDs. Passing the unit tests alone does not replace this check. Keep all raw abstracts, logs and credentials in the private cloud workspace, never in the public repository.

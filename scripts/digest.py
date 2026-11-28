@@ -45,7 +45,8 @@ def cr_record(p):
 def discover(day,cache,lookback):
  from official_sources import collect,identity
  records,sources=collect(day,cache,lookback)
- state=read(DIST/'digest/state.json',{'version':1,'candidates':{},'runs':[]})
+ from state_store import load
+ state=load(DIST)
  baseline=read(DIST/'bibliography.json',{})['papers'];known={k for p in baseline for k in identity(p)}
  index={k:p['firstSeenDate'] for p in state['candidates'].values() for k in identity(p)}
  date=today().isoformat();accepted=[]
@@ -54,7 +55,7 @@ def discover(day,cache,lookback):
   p['firstSeenDate']=min([date]+[index[k] for k in identity(p) if k in index]);p['lastSeenDate']=date
   prior=state['candidates'].get(p['id'],{})
   public={k:v for k,v in p.items() if k not in ['abstract','feedSummary']}
-  state['candidates'][p['id']]={**prior,**public}
+  state['candidates'][p['id']]={**prior,**public,'aliases':sorted(set(prior.get('aliases',[]))|set(public.get('aliases',[])))}
   if prior.get('title') and prior['title']!=p['title']:state['candidates'][p['id']]['approved']=False
   accepted.append(p)
  state['runs'].append({'date':date,'searchThrough':day.isoformat(),'sources':sources,'newCandidates':len(accepted),'collectorVersion':2})
@@ -96,6 +97,9 @@ def validate(issue,state,previous):
   for name in ['title','sourceUrl','evidenceUrl','summary','whyRelevant','readingBasis','firstSeenDate','publicationDate','dateBasis']:assert p.get(name),f'Missing {name}'
   for name in ['sourceUrl','evidenceUrl']:assert p[name].startswith('https://'),'Unsafe source URL'
   assert len(p['summary'].split())<=110,'Summary too long'
+ library_ids={p['id'] for p in read(DIST/'bibliography.json',{'papers':[]})['papers']}
+ for p in issue['papers']:
+  for r in p.get('relatedPapers',[]):assert r.get('id') in library_ids,'Unknown related-paper ID'
  for t in TOPICS:assert actual[t]==[p['id'] for p in expected[t]],'Selection policy mismatch: '+t
  assert len(issue['papers'])<=25
  return True
@@ -118,11 +122,12 @@ def build(cache,date):
  papers=[{k:v for k,v in p.items() if k not in ['abstract','approved','score','matchedTopics','lastSeenDate']} for ps in selected.values() for p in ps]
  issue={'date':date,'generatedAt':dt.datetime.now(dt.timezone(dt.timedelta(hours=8))).isoformat(timespec='seconds'),'timezone':'Asia/Shanghai','bootstrap':not previous,'collectorVersion':2,'papers':papers,'sources':read(cache/'sources.json',[]),'selectionPolicy':'Prefer first discovered in the last 7 calendar days; if a topic has fewer than 3 papers, supplement from days 8–30 to reach 3. Maximum 5 per topic. Never repeat a work.'}
  validate(issue,state,previous)
- write(DIST/'digest/issues'/f'{date}.json',issue);write(DIST/'digest/state.json',state)
+ from state_store import save
+ save(DIST,state,date)
+ write(DIST/'digest/issues'/f'{date}.json',issue)
  allissues=sorted(previous+[issue],key=lambda x:x['date'],reverse=True)
- manifest={'version':1,'latest':date,'timezone':'Asia/Shanghai','issues':[{'date':x['date'],'count':len(x['papers'])} for x in allissues]};write(DIST/'digest/manifest.json',manifest)
- payload={'manifest':manifest,'issues':allissues}
- (DIST/'digest-data.js').write_text('window.DIGEST_DATA = '+json.dumps(payload,ensure_ascii=False,separators=(',',':')).replace('<','\\u003c')+';\n')
+ old_entries={x['date']:x for x in read(DIST/'digest/manifest.json',{'issues':[]})['issues']}
+ manifest={'version':1,'latest':date,'timezone':'Asia/Shanghai','issues':[{**old_entries.get(x['date'],{}),'date':x['date'],'count':len(x['papers']),**({'mode':x['mode']} if 'mode' in x else {})} for x in allissues]};write(DIST/'digest/manifest.json',manifest)
  print(json.dumps({'date':date,'count':len(papers),'topics':{t:len(v) for t,v in selected.items()}},indent=2))
 
 def main():
